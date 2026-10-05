@@ -1461,23 +1461,23 @@ const treatyHub = {
   "1st draft links": [
     {
       title: "1st Draft: Committee Assignments",
-      url: "https://example.com/first-draft-committee-assignments"
+      url: "https://docs.google.com/spreadsheets/d/17oqVmS8g1ZzegrSMdpnn76Abv7EwUKVeUD_dYmoJUKI/edit?gid=0#gid=0"
     },
     {
       title: "1st Draft: Key Definitions & Objectives",
-      url: "https://example.com/first-draft-definitions-objectives"
+      url: "https://docs.google.com/document/d/1PB6VnNc63DmVQDhHGtHL4jn5X8M6YdsPhBDcycn_0UE/edit?tab=t.0"
     },
     {
       title: "1st Draft: Obligations & Commitments",
-      url: "https://example.com/first-draft-obligations-commitments"
+      url: "https://docs.google.com/document/d/1PB6VnNc63DmVQDhHGtHL4jn5X8M6YdsPhBDcycn_0UE/edit?tab=t.noey3od4uny9"
     },
     {
       title: "1st Draft: Monitoring & Institutions",
-      url: "https://example.com/first-draft-monitoring-institutions"
+      url: "https://docs.google.com/document/d/1PB6VnNc63DmVQDhHGtHL4jn5X8M6YdsPhBDcycn_0UE/edit?tab=t.7jy1prmupbue"
     },
     {
       title: "1st Draft: Disputes & Settlements",
-      url: "https://example.com/first-draft-disputes-settlements"
+      url: "https://docs.google.com/document/d/1PB6VnNc63DmVQDhHGtHL4jn5X8M6YdsPhBDcycn_0UE/edit?tab=t.v2igqkypvef"
     }
   ],
 
@@ -1485,23 +1485,23 @@ const treatyHub = {
   "2nd draft links": [
     {
       title: "2nd Draft: Committee Assignments",
-      url: "https://example.com/second-draft-committee-assignments"
+      url: "https://docs.google.com/spreadsheets/d/17oqVmS8g1ZzegrSMdpnn76Abv7EwUKVeUD_dYmoJUKI/edit?gid=0#gid=0"
     },
     {
       title: "2nd Draft: Key Definitions & Objectives",
-      url: "https://example.com/second-draft-definitions-objectives"
+      url: "https://docs.google.com/document/d/1LxbDG0fHtdPq-w-zEZeS6g8zVOP1eYxBwb0fh9nz6B4/edit?tab=t.0"
     },
     {
       title: "2nd Draft: Obligations & Commitments",
-      url: "https://example.com/second-draft-obligations-commitments"
+      url: "https://docs.google.com/document/d/1LxbDG0fHtdPq-w-zEZeS6g8zVOP1eYxBwb0fh9nz6B4/edit?tab=t.noey3od4uny9"
     },
     {
       title: "2nd Draft: Monitoring & Institutions",
-      url: "https://example.com/second-draft-monitoring-institutions"
+      url: "https://docs.google.com/document/d/1LxbDG0fHtdPq-w-zEZeS6g8zVOP1eYxBwb0fh9nz6B4/edit?tab=t.7jy1prmupbue"
     },
     {
       title: "2nd Draft: Disputes & Settlements",
-      url: "https://example.com/second-draft-disputes-settlements"
+      url: "https://docs.google.com/document/d/1LxbDG0fHtdPq-w-zEZeS6g8zVOP1eYxBwb0fh9nz6B4/edit?tab=t.v2igqkypvef"
     }
   ],
 
