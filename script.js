@@ -1587,46 +1587,164 @@ const treatyHub = {
     }
   ],
 
-      "Cheat Sheet: So You Want to Write an International Environmental Treaty": `
-    <div class="rules-content">
+     "Cheat Sheet: So You Want to Write an International Environmental Treaty": `
+  <div class="rules-content">
 
-      <h3>Key Definitions & Objectives</h3>
+    <p>
+      International environmental negotiations are often a multi-year/treaty-long process.
+      For example, UNFCCC establishes the framework for climate change negotiations,
+      subsequent texts ("protocols", "accords", "agreements", or "frameworks") refine
+      commitments, procedures, and tools/mechanisms, with varying degrees of legal/political force.
+      So, for example: UNFCCC → Kyoto Protocol → Copenhagen Accord → Paris Agreement;
+      CBD → Kunming-Montreal Global Biodiversity Framework.
+    </p>
 
-      <ul>
-        <li>Placeholder bullet 1</li>
-        <li>Placeholder bullet 2</li>
-        <li>Placeholder bullet 3</li>
-      </ul>
-
-
-      <h3>Commitments & Obligations</h3>
-
-      <ul>
-        <li>Placeholder bullet 1</li>
-        <li>Placeholder bullet 2</li>
-        <li>Placeholder bullet 3</li>
-      </ul>
+    <p>
+      For the purpose of this simulation, you should think of yourself as establishing
+      a <strong>framing convention</strong> in the style of UNFCCC or CBD.
+    </p>
 
 
-      <h3>Monitoring & Institutions</h3>
+    <h3>Key Definitions & Objectives</h3>
 
-      <ul>
-        <li>Placeholder bullet 1</li>
-        <li>Placeholder bullet 2</li>
-        <li>Placeholder bullet 3</li>
-      </ul>
+    <ul>
+      <li>What is the treaty about?</li>
+
+      <li>What does it aim to achieve?</li>
+
+      <li>
+        Define key terms:
+        <ol>
+          <li>that will come up a lot in your treaty</li>
+          <li>upon which your obligations & commitments will hinge</li>
+        </ol>
+      </li>
+
+      <li>
+        <strong>Examples:</strong>
+        <ul>
+          <li>
+            UNFCCC: Article 2 "to achieve […] stabilization of greenhouse gas
+            concentrations in the atmosphere"; Article 1 defines key terms
+          </li>
+          <li>
+            Kyoto: Recalls UNFCCC Article 2 objectives in the preamble,
+            defines new key terms in Article 1
+          </li>
+          <li>
+            Paris: Recalls UNFCCC definitions in Article 1,
+            defines new specific objectives in Article 2
+          </li>
+        </ul>
+      </li>
+    </ul>
 
 
-      <h3>Disputes & Other Legal Provisions</h3>
+    <h3>Commitments & Obligations</h3>
 
-      <ul>
-        <li>Placeholder bullet 1</li>
-        <li>Placeholder bullet 2</li>
-        <li>Placeholder bullet 3</li>
-      </ul>
+    <ul>
+      <li>
+        What parties agree to do: what targets? What policies?
+        Reporting requirements? Finance & technology transfers?
+        Other commitments?
+      </li>
 
-    </div>
-  `
+      <li>
+        Often take the form of:
+        <ul>
+          <li>"All Parties shall W"</li>
+          <li>"Parties listed in Annex 1 shall X"</li>
+        </ul>
+      </li>
+
+      <li>
+        Commitments can also be non-binding / voluntary:
+        <ul>
+          <li>"Parties should Y"</li>
+          <li>"Parties shall endeavor to Z"</li>
+        </ul>
+      </li>
+
+      <li>
+        <strong>Examples:</strong>
+        <ul>
+          <li>
+            UNFCCC: Article 4 "All Parties […] shall: (a) Develop […]
+            national inventories of anthropogenic emissions […] (b) Formulate […]
+            measures to mitigate climate change […] (c) Promote and cooperate
+            in the development […] of technologies […]"
+          </li>
+          <li>
+            Kyoto Articles 2-11 give a lot more detail to the general commitments
+            set forth in UNFCCC Articles 4-7
+          </li>
+          <li>
+            Paris: Article 4 "Each Party shall prepare, communicate, and maintain
+            successive nationally determined contributions"
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+
+    <h3>Monitoring & Institutions</h3>
+
+    <ul>
+      <li>
+        Creates the bodies and procedures that make the treaty work
+      </li>
+
+      <li>
+        <strong>Examples:</strong>
+        <ul>
+          <li>
+            UNFCCC: establishes Convention of Parties (COP), Subsidiary Body
+            for Scientific & Technological Advice (SBSTA), Subsidiary Body for
+            Implementation (SBI), a financial mechanism and a Secretariat.
+            See Articles text for how the UNFCCC exactly does this.
+          </li>
+          <li>
+            Kyoto: Article 18 establishes a Compliance Committee, Article 12
+            establishes a "Clean Development Mechanism Executive Board"
+          </li>
+          <li>
+            Paris: Article 15 establishes a "Paris Agreement Implementation and
+            Compliance Committee", Article 14 establishes a "global stocktake"
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+
+    <h3>Disputes & Settlements</h3>
+
+    <ul>
+      <li>
+        How are disagreements between Parties resolved?
+      </li>
+
+      <li>
+        Usually begins with negotiation, then potentially moves to mediation,
+        conciliation, arbitration, or judicial settlement
+      </li>
+
+      <li>
+        <strong>Examples:</strong>
+        <ul>
+          <li>
+            UNFCCC: Article 14 "The Parties concerned shall seek a settlement
+            of the dispute through negotiation or any other peaceful means
+            of their own choice"
+          </li>
+          <li>
+            Kyoto and Paris use the same architecture as the UNFCCC
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+  </div>
+`,
 
 };
 
