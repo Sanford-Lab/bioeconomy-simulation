@@ -1621,18 +1621,38 @@ const treatyHub = {
       </li>
 
       <li>
-        <strong>Examples:</strong>
+        Examples:
         <ul>
           <li>
-            UNFCCC: Article 2 "to achieve […] stabilization of greenhouse gas
+            <a
+              href="#"
+              class="treaty-reference-link"
+              onclick="openTreatyCategory('Sample texts'); return false;">
+              UNFCCC
+            </a>:
+            Article 2 "to achieve […] stabilization of greenhouse gas
             concentrations in the atmosphere"; Article 1 defines key terms
           </li>
+
           <li>
-            Kyoto: Recalls UNFCCC Article 2 objectives in the preamble,
+            <a
+              href="#"
+              class="treaty-reference-link"
+              onclick="openTreatyCategory('Sample texts'); return false;">
+              Kyoto
+            </a>:
+            Recalls UNFCCC Article 2 objectives in the preamble,
             defines new key terms in Article 1
           </li>
+
           <li>
-            Paris: Recalls UNFCCC definitions in Article 1,
+            <a
+              href="#"
+              class="treaty-reference-link"
+              onclick="openTreatyCategory('Sample texts'); return false;">
+              Paris
+            </a>:
+            Recalls UNFCCC definitions in Article 1,
             defines new specific objectives in Article 2
           </li>
         </ul>
@@ -1666,20 +1686,40 @@ const treatyHub = {
       </li>
 
       <li>
-        <strong>Examples:</strong>
+        Examples:
         <ul>
           <li>
-            UNFCCC: Article 4 "All Parties […] shall: (a) Develop […]
+            <a
+              href="#"
+              class="treaty-reference-link"
+              onclick="openTreatyCategory('Sample texts'); return false;">
+              UNFCCC
+            </a>:
+            Article 4 "All Parties […] shall: (a) Develop […]
             national inventories of anthropogenic emissions […] (b) Formulate […]
             measures to mitigate climate change […] (c) Promote and cooperate
             in the development […] of technologies […]"
           </li>
+
           <li>
-            Kyoto Articles 2-11 give a lot more detail to the general commitments
+            <a
+              href="#"
+              class="treaty-reference-link"
+              onclick="openTreatyCategory('Sample texts'); return false;">
+              Kyoto
+            </a>:
+            Articles 2-11 give a lot more detail to the general commitments
             set forth in UNFCCC Articles 4-7
           </li>
+
           <li>
-            Paris: Article 4 "Each Party shall prepare, communicate, and maintain
+            <a
+              href="#"
+              class="treaty-reference-link"
+              onclick="openTreatyCategory('Sample texts'); return false;">
+              Paris
+            </a>:
+            Article 4 "Each Party shall prepare, communicate, and maintain
             successive nationally determined contributions"
           </li>
         </ul>
@@ -1695,20 +1735,40 @@ const treatyHub = {
       </li>
 
       <li>
-        <strong>Examples:</strong>
+        Examples:
         <ul>
           <li>
-            UNFCCC: establishes Convention of Parties (COP), Subsidiary Body
+            <a
+              href="#"
+              class="treaty-reference-link"
+              onclick="openTreatyCategory('Sample texts'); return false;">
+              UNFCCC
+            </a>:
+            establishes Conference of the Parties (COP), Subsidiary Body
             for Scientific & Technological Advice (SBSTA), Subsidiary Body for
             Implementation (SBI), a financial mechanism and a Secretariat.
             See Articles text for how the UNFCCC exactly does this.
           </li>
+
           <li>
-            Kyoto: Article 18 establishes a Compliance Committee, Article 12
+            <a
+              href="#"
+              class="treaty-reference-link"
+              onclick="openTreatyCategory('Sample texts'); return false;">
+              Kyoto
+            </a>:
+            Article 18 establishes a Compliance Committee, Article 12
             establishes a "Clean Development Mechanism Executive Board"
           </li>
+
           <li>
-            Paris: Article 15 establishes a "Paris Agreement Implementation and
+            <a
+              href="#"
+              class="treaty-reference-link"
+              onclick="openTreatyCategory('Sample texts'); return false;">
+              Paris
+            </a>:
+            Article 15 establishes a "Paris Agreement Implementation and
             Compliance Committee", Article 14 establishes a "global stocktake"
           </li>
         </ul>
@@ -1729,15 +1789,35 @@ const treatyHub = {
       </li>
 
       <li>
-        <strong>Examples:</strong>
+        Examples:
         <ul>
           <li>
-            UNFCCC: Article 14 "The Parties concerned shall seek a settlement
+            <a
+              href="#"
+              class="treaty-reference-link"
+              onclick="openTreatyCategory('Sample texts'); return false;">
+              UNFCCC
+            </a>:
+            Article 14 "The Parties concerned shall seek a settlement
             of the dispute through negotiation or any other peaceful means
             of their own choice"
           </li>
+
           <li>
-            Kyoto and Paris use the same architecture as the UNFCCC
+            <a
+              href="#"
+              class="treaty-reference-link"
+              onclick="openTreatyCategory('Sample texts'); return false;">
+              Kyoto
+            </a>
+            and
+            <a
+              href="#"
+              class="treaty-reference-link"
+              onclick="openTreatyCategory('Sample texts'); return false;">
+              Paris
+            </a>
+            use the same architecture as the UNFCCC
           </li>
         </ul>
       </li>
