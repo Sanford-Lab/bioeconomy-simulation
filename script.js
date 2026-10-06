@@ -1478,6 +1478,10 @@ const treatyHub = {
     {
       title: "1st Draft: Disputes & Settlements",
       url: "https://docs.google.com/document/d/1PB6VnNc63DmVQDhHGtHL4jn5X8M6YdsPhBDcycn_0UE/edit?tab=t.v2igqkypvef"
+    },
+    {
+      title: "Cheat Sheet: So You Want to Write an International Environmental Treaty",
+      cheatSheet: true
     }
   ],
 
@@ -1502,6 +1506,10 @@ const treatyHub = {
     {
       title: "2nd Draft: Disputes & Settlements",
       url: "https://docs.google.com/document/d/1LxbDG0fHtdPq-w-zEZeS6g8zVOP1eYxBwb0fh9nz6B4/edit?tab=t.v2igqkypvef"
+    },
+    {
+      title: "Cheat Sheet: So You Want to Write an International Environmental Treaty",
+      cheatSheet: true
     }
   ],
 
@@ -1577,7 +1585,48 @@ const treatyHub = {
       title: "National Policy on Biofuels",
       url: "https://uaelegislation.gov.ae/en/policy/details/the-national-policy-on-biofuels"
     }
-  ]
+  ],
+
+      "Cheat Sheet: So You Want to Write an International Environmental Treaty": `
+    <div class="rules-content">
+
+      <h3>Key Definitions & Objectives</h3>
+
+      <ul>
+        <li>Placeholder bullet 1</li>
+        <li>Placeholder bullet 2</li>
+        <li>Placeholder bullet 3</li>
+      </ul>
+
+
+      <h3>Commitments & Obligations</h3>
+
+      <ul>
+        <li>Placeholder bullet 1</li>
+        <li>Placeholder bullet 2</li>
+        <li>Placeholder bullet 3</li>
+      </ul>
+
+
+      <h3>Monitoring & Institutions</h3>
+
+      <ul>
+        <li>Placeholder bullet 1</li>
+        <li>Placeholder bullet 2</li>
+        <li>Placeholder bullet 3</li>
+      </ul>
+
+
+      <h3>Disputes & Other Legal Provisions</h3>
+
+      <ul>
+        <li>Placeholder bullet 1</li>
+        <li>Placeholder bullet 2</li>
+        <li>Placeholder bullet 3</li>
+      </ul>
+
+    </div>
+  `
 
 };
 
@@ -1669,6 +1718,31 @@ function openTreatyCategory(category) {
     treatyHub[category] || [];
 
 
+  if (category === "Cheat Sheet: So You Want to Write an International Environmental Treaty") {
+
+    openModal(`
+
+      <button
+        type="button"
+        class="treaty-back-button"
+        id="treatyBackButton">
+
+        ← Treaty Hub
+
+      </button>
+
+      <h2>
+        ${category}
+      </h2>
+
+      ${items}
+
+    `);
+
+    return;
+  }
+
+
   const itemsHTML =
   items.length
 
@@ -1676,21 +1750,45 @@ function openTreatyCategory(category) {
 
         /* Subsection heading */
 
-        if (item.type === "section") {
+/* Subsection heading */
 
-          return `
-            <div class="treaty-section">
-              ${item.title}
-            </div>
-          `;
+if (item.type === "section") {
 
-        }
+  return `
+    <div class="treaty-section">
+      ${item.title}
+    </div>
+  `;
+
+}
 
 
-        /* Country heading only if different from previous item */
+/* Cheat sheet link */
 
-        const previousItem =
-          items[index - 1];
+if (item.cheatSheet) {
+
+  return `
+    <div class="treaty-item">
+
+      <a
+        class="treaty-link"
+        href="#"
+        onclick="openTreatyCategory('Cheat Sheet: So You Want to Write an International Environmental Treaty'); return false;">
+
+        ${item.title}
+
+      </a>
+
+    </div>
+  `;
+
+}
+
+
+/* Country heading only if different from previous item */
+
+const previousItem =
+  items[index - 1];
 
         const showCountry =
           item.country &&
