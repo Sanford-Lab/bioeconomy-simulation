@@ -124,7 +124,7 @@ h1 {
   appearance: none;
   border: 0;
   padding: 0;
-  margin: 0 0 0 .7em;
+  margin: 0 0 0 .75em;
 
   color: var(--muted);
   background: transparent;
@@ -138,9 +138,8 @@ h1 {
 
   border-bottom: 1px dashed rgba(237,242,243,.35);
 
-  vertical-align: baseline;
   position: relative;
-  top: -0.02em;
+  top: -0.08em;
 
   transition:
     opacity .15s,
