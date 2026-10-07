@@ -140,7 +140,7 @@ h1 {
   border-bottom: 1px dashed rgba(237,242,243,.35);
 
   position: relative;
-  top: -0.08em;
+  top: 0;
 
   transition:
     opacity .15s,
@@ -150,6 +150,22 @@ h1 {
 .resource-link:hover {
   border-bottom-color: var(--accent);
   opacity: .72;
+}
+
+.resource-document-link {
+  color: var(--muted);
+
+  font-size: 1.05rem;
+  font-weight: 400;
+  line-height: 1.4;
+
+  text-decoration: none;
+
+  border-bottom: 1px dashed rgba(237,242,243,.4);
+}
+
+.resource-document-link:hover {
+  border-bottom-color: var(--text);
 }
 
 /* =========================================================
