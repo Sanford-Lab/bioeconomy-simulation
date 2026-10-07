@@ -1291,37 +1291,67 @@ const concepts = {
           biomass supply.
         </li>
       </ul>
-	      <h3>Video resources</h3>
 
-      <div class="video-grid">
-
-        <iframe
-          src="https://www.youtube.com/embed/DukP2Rbw46Q"
-          title="Bioeconomy video 1"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen>
-        </iframe>
-
-        <iframe
-          src="https://www.youtube.com/embed/sTatfbueiik"
-          title="Bioeconomy video 2"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen>
-        </iframe>
-
-        <iframe
-          src="https://www.youtube.com/embed/_mA-AtHMEyk"
-          title="Bioeconomy video 3"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen>
-        </iframe>
-
-      </div>
     `
   },
+
+"bioeconomy-resources": {
+  title: "What is the bioeconomy?",
+  body: `
+    <p>
+      Use these resources as a starting point for exploring the bioeconomy.
+      From there, feel free to find additional resources that are more tailored
+      to your interests, your actor, or the issues you want to explore.
+    </p>
+
+    <h3>Web resources</h3>
+
+    <ul>
+      <li>
+        <a href="https://link.springer.com/book/10.1007/978-3-032-09098-0" target="_blank" rel="noopener">
+          University of Hohenheim open-access textbook on the bioeconomy (skim intro + any sections of interest)
+        </a>
+      </li>
+      <li>
+        <a href="https://www.iufro.org/task-forces/t50-building-an-integrated-vision-of-the-forest-based-sector-within-a-bioeconomy" target="_blank" rel="noopener">
+          IUFRO task force on forest sector for the bioeconomy
+        </a>
+      </li>
+      <li>
+        <a href="https://www.iufro.org/media/fileadmin/publications/policy-briefs/scipol-coli26-policy-brief-extended.pdf" target="_blank" rel="noopener">
+          IUFRO expanded policy brief on advancing forest bioeconomy approaches
+        </a>
+      </li>
+    </ul>
+
+    <h3>Videos</h3>
+
+    <div class="video-grid">
+
+      <iframe
+        src="https://www.youtube.com/embed/DukP2Rbw46Q"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+
+      <iframe
+        src="https://www.youtube.com/embed/sTatfbueiik"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+
+      <iframe
+        src="https://www.youtube.com/embed/_mA-AtHMEyk"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+
+    </div>
+  `
+},
 
   framework: {
     title: "Framework",
@@ -1433,8 +1463,12 @@ const treatyHub = {
 
   "Sample texts": [
     {
-      title: "Last year's final treaty",
+      title: "Fall 2025 final treaty",
       url: "assets/env-821-treaty-2025.pdf"
+    },
+    {
+      title: "Fall 2024 final treaty",
+      url: "assets/env-821-treaty-2024.pdf"
     },
     {
       title: "Paris Accords text",
@@ -1449,6 +1483,11 @@ const treatyHub = {
     {
       title: "Vienna Convention & Montreal Protocol texts (ozone protection)",
       url: "https://ozone.unep.org/treaties/vienna-convention/vienna-convention-protection-ozone-layer"
+    },
+
+    {
+      title: "Convention for Biological Diversity text",
+      url: "https://www.cbd.int/convention/text"
     },
 
     {
