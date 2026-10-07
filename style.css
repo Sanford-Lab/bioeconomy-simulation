@@ -130,7 +130,7 @@ h1 {
   background: transparent;
 
   font-family: inherit;
-  font-size: .28em;
+  font-size: .32em;
   font-weight: 400;
   font-style: normal;
 
@@ -139,6 +139,8 @@ h1 {
   border-bottom: 1px dashed rgba(237,242,243,.35);
 
   vertical-align: baseline;
+  position: relative;
+  top: -0.02em;
 
   transition:
     opacity .15s,
