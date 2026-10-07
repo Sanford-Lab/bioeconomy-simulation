@@ -1308,17 +1308,17 @@ const concepts = {
 
     <ul>
       <li>
-        <a class="treaty-link" href="https://link.springer.com/book/10.1007/978-3-032-09098-0" target="_blank" rel="noopener">
+        <a class="resource-document-link" href="https://link.springer.com/book/10.1007/978-3-032-09098-0" target="_blank" rel="noopener">
           University of Hohenheim open-access textbook on the bioeconomy (skim intro + any sections of interest)
         </a>
       </li>
       <li>
-        <a class="treaty-link" href="https://www.iufro.org/task-forces/t50-building-an-integrated-vision-of-the-forest-based-sector-within-a-bioeconomy" target="_blank" rel="noopener">
+        <a class="resource-document-link" href="https://www.iufro.org/task-forces/t50-building-an-integrated-vision-of-the-forest-based-sector-within-a-bioeconomy" target="_blank" rel="noopener">
           IUFRO task force on forest sector for the bioeconomy
         </a>
       </li>
       <li>
-        <a class="treaty-link" href="https://www.iufro.org/media/fileadmin/publications/policy-briefs/scipol-coli26-policy-brief-extended.pdf" target="_blank" rel="noopener">
+        <a class="resource-document-link" href="https://www.iufro.org/media/fileadmin/publications/policy-briefs/scipol-coli26-policy-brief-extended.pdf" target="_blank" rel="noopener">
           IUFRO expanded policy brief on advancing forest bioeconomy approaches
         </a>
       </li>
