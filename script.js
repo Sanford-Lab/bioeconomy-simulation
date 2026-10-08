@@ -2615,7 +2615,7 @@ function openTimeline() {
                 <td>
                   Lecture: 2-level games<br>
                   <span class="timeline-note">
-                    Start thinking about coalitions, discussing interests, forming group chats...
+                    Start thinking about coalitions, discussing interests, forming group chats
                   </span>
                 </td>
                 <td></td>
@@ -2626,14 +2626,13 @@ function openTimeline() {
                 <td>
                   Case study: Kyoto Protocol<br>
                   <span class="timeline-note">
-                    Initial meetings with countries, coalitions; come up with wishlist of things you want in the treaty
+                    Initial meetings with countries/coalitions; think about treaty "wishlists"
                   </span>
                 </td>
                 <td>
                   Lecture: flexibility in agreements<br>
                   <span class="timeline-note">
-                    1-hr in-class simulation time: split into 1st draft committees and start writing text
-                  </span>
+                    1-hr in-class simulation time; split into 1st draft committees                  </span>
                 </td>
                 <td>Nov 3 (Tue): Actor Memo #2</td>
               </tr>
@@ -2673,12 +2672,12 @@ function openTimeline() {
                 <td>11</td>
                 <td>Bioeconomy readings, simulation mega-session #1<br>
                   <span class="timeline-note">
-                    Continue working on 1st draft texts
+                    Continue 1st draft work
                   </span>
 </td>
                 <td>Simulation mega-session #2<br>
                   <span class="timeline-note">
-                    Split into 2nd draft committees, start writing text: what do you want to refine further from the 1st draft? Change? What's missing?
+                    Split into 2nd draft committees; think about what you want to refine/change/add from 1st draft
                   </span>
 </td>
                 <td>Nov 10 (Tue): 1st draft</td>
@@ -2688,11 +2687,11 @@ function openTimeline() {
                 <td>12</td>
                 <td>
                   Lecture: regime type<br>
-                  <span class="timeline-note">1-hr in-class simulation: continue working on 2nd draft</span>
+                  <span class="timeline-note">1-hr in-class simulation; continue 2nd draft work</span>
                 </td>
                 <td>
                   Lecture: collective action revisited<br>
-                  <span class="timeline-note">1-hr in-class simulation: continue working on 2nd draft</span>
+                  <span class="timeline-note">1-hr in-class simulation; continue 2nd draft work</span>
                 </td>
                 <td>Nov 20 (Fri): 2nd draft</td>
               </tr>
@@ -2738,9 +2737,11 @@ function openTimeline() {
 
               <tr>
                 <td>14</td>
-                <td>Simulation mega-session #3</td>
+                <td>Simulation mega-session #3<br>
+                  <span class="timeline-note">Start counting where votes will land; what's needed to get the treaty across the finish line?</span>
+                </td>
                 <td>Lecture: distributive politics<br>
-                  <span class="timeline-note">1-hr in-class simulation</span>
+                  <span class="timeline-note">1-hr in-class simulation; finalize amendments</span>
 </td>
                 <td>
                   Dec 4 (Fri): Country leads submit amendments<br>
