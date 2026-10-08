@@ -2490,6 +2490,13 @@ function openTimeline() {
         <div class="timeline-table-wrap">
           <table class="timeline-table">
 
+            <colgroup>
+              <col class="week-col">
+              <col class="mon-col">
+              <col class="wed-col">
+              <col class="deadline-col">
+            </colgroup>
+
             <thead>
               <tr>
                 <th>Week</th>
@@ -2503,7 +2510,10 @@ function openTimeline() {
               <tr>
                 <td>7</td>
                 <td></td>
-                <td>Lecture: regulatory capture<br>Actor assignments announced</td>
+                <td>
+                  Lecture: regulatory capture<br>
+                  Actor assignments announced
+                </td>
                 <td></td>
               </tr>
 
@@ -2517,7 +2527,10 @@ function openTimeline() {
               <tr>
                 <td>9</td>
                 <td colspan="2" class="recess-cell">October recess</td>
-                <td>Actor Memo #1<br>(Oct 25)</td>
+                <td>
+                  Actor Memo #1<br>
+                  (Oct 25)
+                </td>
               </tr>
 
               <tr>
@@ -2546,8 +2559,8 @@ function openTimeline() {
                 </td>
                 <td>Actor Memos #2 &amp; #3</td>
               </tr>
-
             </tbody>
+
           </table>
         </div>
 
@@ -2563,6 +2576,13 @@ function openTimeline() {
 
         <div class="timeline-table-wrap">
           <table class="timeline-table timeline-table-no-header">
+
+            <colgroup>
+              <col class="week-col">
+              <col class="mon-col">
+              <col class="wed-col">
+              <col class="deadline-col">
+            </colgroup>
 
             <tbody>
               <tr>
@@ -2602,10 +2622,19 @@ function openTimeline() {
         <div class="timeline-table-wrap">
           <table class="timeline-table timeline-table-no-header">
 
+            <colgroup>
+              <col class="week-col">
+              <col class="mon-col">
+              <col class="wed-col">
+              <col class="deadline-col">
+            </colgroup>
+
             <tbody>
               <tr>
                 <td>14</td>
-                <td colspan="2" class="recess-cell">Thanksgiving recess</td>
+                <td colspan="2" class="recess-cell">
+                  Thanksgiving recess
+                </td>
                 <td></td>
               </tr>
 
@@ -2636,6 +2665,13 @@ function openTimeline() {
         <div class="timeline-table-wrap">
           <table class="timeline-table timeline-table-no-header">
 
+            <colgroup>
+              <col class="week-col">
+              <col class="mon-col">
+              <col class="wed-col">
+              <col class="deadline-col">
+            </colgroup>
+
             <tbody>
               <tr>
                 <td>16</td>
@@ -2657,6 +2693,7 @@ function openTimeline() {
   `);
 
 }
+
 /* =========================================================
    RULES & NORMS
    ========================================================= */

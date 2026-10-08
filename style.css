@@ -1366,6 +1366,23 @@ h1 {
   font-size: 0.9rem;
 }
 
+/* Keep the same four-column grid across every table */
+.timeline-table .week-col {
+  width: 8%;
+}
+
+.timeline-table .mon-col {
+  width: 29%;
+}
+
+.timeline-table .wed-col {
+  width: 29%;
+}
+
+.timeline-table .deadline-col {
+  width: 34%;
+}
+
 .timeline-table th,
 .timeline-table td {
   border: 1px solid rgba(255, 255, 255, 0.14);
@@ -1382,49 +1399,12 @@ h1 {
   font-weight: 600;
 }
 
-.timeline-table th:first-child,
-.timeline-table td:first-child {
-  width: 8%;
-  text-align: center;
-}
-
-.timeline-table th:nth-child(2),
-.timeline-table td:nth-child(2) {
-  width: 29%;
-}
-
-.timeline-table th:nth-child(3),
-.timeline-table td:nth-child(3) {
-  width: 29%;
-}
-
-.timeline-table th:nth-child(4),
-.timeline-table td:nth-child(4) {
-  width: 34%;
-}
-
 .timeline-table td {
   background: rgba(255, 255, 255, 0.025);
 }
 
 .timeline-table-no-header {
   margin-top: 0;
-}
-
-.timeline-table-no-header td:first-child {
-  width: 8%;
-}
-
-.timeline-table-no-header td:nth-child(2) {
-  width: 29%;
-}
-
-.timeline-table-no-header td:nth-child(3) {
-  width: 29%;
-}
-
-.timeline-table-no-header td:nth-child(4) {
-  width: 34%;
 }
 
 .recess-cell {
