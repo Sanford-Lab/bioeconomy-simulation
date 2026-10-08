@@ -58,16 +58,16 @@ const delegations = {
         photo: "assets/actors/sunita-narain.jpg",
         resources: [
           {
-            title: "Resource title 1",
-            url: "https://example.com/resource-1"
+            title: "Harvard STS interview",
+            url: "https://sts.hks.harvard.edu/a-conversation-with-sunita-narain"
           },
           {
-            title: "Resource title 2",
-            url: "https://example.com/resource-2"
+            title: "Bulletin of Atomic Scientists profile",
+            url: "https://thebulletin.org/2016/09/sunita-narain-portrait-of-an-activist/"
           },
           {
-            title: "Resource title 3",
-            url: "https://example.com/resource-3"
+            title: "Biofuel: good idea, bad practice (article from 2000s authored by Narain)",
+            url: "https://www.cseindia.org/biofuel-good-idea-bad-practice-701"
           }
         ]
       },
@@ -281,16 +281,16 @@ const delegations = {
       constituencies: [],
       resources: [
         {
-          title: "Resource title 1",
-          url: "https://example.com/resource-1"
+          title: "ADNOC Sustainability Report",
+          url: "https://adnoc.ae/en/sustainability-report"
         },
         {
-          title: "Resource title 2",
-          url: "https://example.com/resource-2"
+          title: "Time profile",
+          url: "https://time.com/6335225/sultan-al-jaber-cop28-interview/"
         },
         {
-          title: "Resource title 3",
-          url: "https://example.com/resource-3"
+          title: "UAE: COP28 chief Sultan Al Jaber calls on select industries to lead decarbonisation",
+          url: "https://gulfnews.com/uae/environment/uae-cop28-chief-sultan-al-jaber-calls-on-select-industries-to-lead-decarbonisation-1.98468744"
         }
       ]
     },
@@ -306,16 +306,12 @@ const delegations = {
         photo: "assets/actors/lamis-al-hashimy.jpg",
         resources: [
           {
-            title: "Resource title 1",
-            url: "https://example.com/resource-1"
+            title: "Carving a Green Future: Lamis Al Hashimy on Sustainable Cutlery from Fallen Date Palm Leaves ",
+            url: "https://www.youtube.com/watch?v=4WQbrW94k_I"
           },
           {
-            title: "Resource title 2",
-            url: "https://example.com/resource-2"
-          },
-          {
-            title: "Resource title 3",
-            url: "https://example.com/resource-3"
+            title: "The founder making cutlery out of palm leaves",
+            url: "https://www.bbc.com/audio/play/w3ct8g95"
           }
         ]
       }
