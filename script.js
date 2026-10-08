@@ -2589,6 +2589,11 @@ function openTimeline() {
             </thead>
 
             <tbody>
+
+              <tr class="timeline-phase-row">
+                <td colspan="4">Phase 1 — Country Preparation</td>
+              </tr>
+
               <tr>
                 <td>7</td>
                 <td></td>
@@ -2641,6 +2646,7 @@ function openTimeline() {
                 </td>
                 <td>Actor Memos #2 (Nov 3)</td>
               </tr>
+
             </tbody>
 
           </table>
@@ -2667,6 +2673,11 @@ function openTimeline() {
             </colgroup>
 
             <tbody>
+
+              <tr class="timeline-phase-row">
+                <td colspan="4">Phase 2 — Negotiation</td>
+              </tr>
+
               <tr>
                 <td>12</td>
                 <td>Lecture: readings on negotiation topic (??)</td>
@@ -2686,6 +2697,7 @@ function openTimeline() {
                 </td>
                 <td></td>
               </tr>
+
             </tbody>
 
           </table>
@@ -2712,6 +2724,11 @@ function openTimeline() {
             </colgroup>
 
             <tbody>
+
+              <tr class="timeline-phase-row">
+                <td colspan="4">Phase 3 — Drafting &amp; Revision</td>
+              </tr>
+
               <tr>
                 <td>14</td>
                 <td colspan="2" class="recess-cell">
@@ -2729,6 +2746,7 @@ function openTimeline() {
                   Amendments due Dec 4
                 </td>
               </tr>
+
             </tbody>
 
           </table>
@@ -2755,6 +2773,11 @@ function openTimeline() {
             </colgroup>
 
             <tbody>
+
+              <tr class="timeline-phase-row">
+                <td colspan="4">Phase 4 — Finalization</td>
+              </tr>
+
               <tr>
                 <td>16</td>
                 <td>
@@ -2764,6 +2787,7 @@ function openTimeline() {
                 <td>Final vote</td>
                 <td>Final reflections (TBD)</td>
               </tr>
+
             </tbody>
 
           </table>
@@ -2775,7 +2799,6 @@ function openTimeline() {
   `);
 
 }
-
 /* =========================================================
    RULES & NORMS
    ========================================================= */
