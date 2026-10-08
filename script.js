@@ -2626,13 +2626,13 @@ function openTimeline() {
                 <td>
                   Case study: Kyoto Protocol<br>
                   <span class="timeline-note">
-                    Initial meetings with countries, coalitions
+                    Initial meetings with countries, coalitions; come up with wishlist of things you want in the treaty
                   </span>
                 </td>
                 <td>
                   Lecture: flexibility in agreements<br>
                   <span class="timeline-note">
-                    [Simulation TBD — split into committees? or do this on Monday?]
+                    1-hr in-class simulation time: split into 1st draft committees and start writing text
                   </span>
                 </td>
                 <td>Nov 3 (Tue): Actor Memo #2</td>
@@ -2671,22 +2671,30 @@ function openTimeline() {
 
               <tr>
                 <td>11</td>
-                <td>Lecture: readings on negotiation topic (??)</td>
-                <td>Simulation mega-session</td>
-                <td>1st draft (when?)</td>
+                <td>Bioeconomy readings, simulation mega-session #1<br>
+                  <span class="timeline-note">
+                    Continue working on 1st draft texts
+                  </span>
+</td>
+                <td>Simulation mega-session #2<br>
+                  <span class="timeline-note">
+                    Split into 2nd draft committees, start writing text: what do you want to refine further from the 1st draft? Change? What's missing?
+                  </span>
+</td>
+                <td>Nov 10 (Tue): 1st draft</td>
               </tr>
 
               <tr>
                 <td>12</td>
                 <td>
                   Lecture: regime type<br>
-                  <span class="timeline-note">1-hr in-class simulation</span>
+                  <span class="timeline-note">1-hr in-class simulation: continue working on 2nd draft</span>
                 </td>
                 <td>
                   Lecture: collective action revisited<br>
-                  <span class="timeline-note">1-hr in-class simulation</span>
+                  <span class="timeline-note">1-hr in-class simulation: continue working on 2nd draft</span>
                 </td>
-                <td></td>
+                <td>Nov 20 (Fri): 2nd draft</td>
               </tr>
 
             </tbody>
@@ -2723,19 +2731,19 @@ function openTimeline() {
               <tr>
                 <td>13</td>
                 <td colspan="2" class="recess-cell">
-                  Thanksgiving recess
+                  THANKSGIVING
                 </td>
                 <td></td>
               </tr>
 
               <tr>
                 <td>14</td>
-                <td>Simulation mega-session</td>
-                <td>Lecture: distributive politics</td>
+                <td>Simulation mega-session #3</td>
+                <td>Lecture: distributive politics<br>
                   <span class="timeline-note">1-hr in-class simulation</span>
+</td>
                 <td>
-                  Nov 20 (Fri): 2nd draft<br>
-                  Amendments due Dec 4
+                  Dec 4 (Fri): Country leads submit amendments<br>
                 </td>
               </tr>
 
@@ -2774,10 +2782,10 @@ function openTimeline() {
                 <td>15</td>
                 <td>
                   Lecture: transnational actors<br>
-                  Vote on amendments
+<span class="timeline-note">Vote on amendments</span>
                 </td>
                 <td>Final vote</td>
-                <td>Dec 15: Final reflections</td>
+                <td>Dec 15 (Tue): Final reflections</td>
               </tr>
 
             </tbody>
