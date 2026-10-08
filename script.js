@@ -1511,7 +1511,7 @@ const treatyHub = {
       url: "https://docs.google.com/document/d/1PB6VnNc63DmVQDhHGtHL4jn5X8M6YdsPhBDcycn_0UE/edit?tab=t.7jy1prmupbue"
     },
     {
-      title: "1st Draft: Disputes & Settlements",
+      title: "1st Draft: Disputes, Settlements & Amendments",
       url: "https://docs.google.com/document/d/1PB6VnNc63DmVQDhHGtHL4jn5X8M6YdsPhBDcycn_0UE/edit?tab=t.v2igqkypvef"
     },
     {
@@ -1539,7 +1539,7 @@ const treatyHub = {
       url: "https://docs.google.com/document/d/1LxbDG0fHtdPq-w-zEZeS6g8zVOP1eYxBwb0fh9nz6B4/edit?tab=t.7jy1prmupbue"
     },
     {
-      title: "2nd Draft: Disputes & Settlements",
+      title: "2nd Draft: Disputes, Settlements & Amendments",
       url: "https://docs.google.com/document/d/1LxbDG0fHtdPq-w-zEZeS6g8zVOP1eYxBwb0fh9nz6B4/edit?tab=t.v2igqkypvef"
     },
     {
@@ -1811,7 +1811,7 @@ const treatyHub = {
     </ul>
 
 
-    <h3>Disputes & Settlements</h3>
+    <h3>Disputes, Settlements & Amendments</h3>
 
     <ul>
       <li>
@@ -1822,6 +1822,12 @@ const treatyHub = {
         Usually begins with negotiation, then potentially moves to mediation,
         conciliation, arbitration, or judicial settlement
       </li>
+
+
+
+  <li>
+    What if you want to amend the treaty after it's passed? 
+  </li>
 
       <li>
         Examples:
@@ -1853,7 +1859,19 @@ const treatyHub = {
               Paris
             </a>
             use the same architecture as the UNFCCC
-          </li>
+                </li>
+
+      <li>
+        <a
+          href="#"
+          class="treaty-reference-link"
+          onclick="openTreatyCategory('Sample texts'); return false;">
+          Paris Agreement
+        </a>:
+        Article 22 provides that amendments are adopted by consensus
+        where possible, and otherwise by a three-fourths majority vote,
+        followed by acceptance by Parties
+      </li>
         </ul>
       </li>
     </ul>
@@ -2157,36 +2175,36 @@ document.addEventListener(
    ========================================================= */
 
 const studentAssignments = [
-  { student: "Analee Josselyn", actor: "Rajesh S. Gokhale" },
-  { student: "Anna Atticks", actor: "Ashish Gaikwad" },
-  { student: "Brooke Monson", actor: "Sunita Narain" },
-  { student: "Carolina Rocha Lima", actor: "Binod Anand" },
+  { student: "Analee Josselyn", actor: "Jussi Vanhanen" },
+  { student: "Anna Atticks", actor: "Robert Spurway" },
+  { student: "Brooke Monson", actor: "Aleta Baun" },
+  { student: "Carolina Rocha Lima", actor: "Michael Vassiliadis" },
 
-  { student: "Eve Cooke", actor: "João Paulo Capobianco" },
-  { student: "Frances Jereb", actor: "Almir Narayamoga Suruí" },
-  { student: "Godknows Maremera", actor: "Angela Pinhati" },
-  { student: "Grant Shen", actor: "Roberto Vilela" },
+  { student: "Eve Cooke", actor: "Almir Narayamoga Suruí" },
+  { student: "Frances Jereb", actor: "Rajesh S. Gokhale" },
+  { student: "Godknows Maremera", actor: "Binod Anand" },
+  { student: "Grant Shen", actor: "Sakari Puisto" },
 
-  { student: "Gray Purcell", actor: "Katherina Reiche" },
-  { student: "Hannah Testa", actor: "Olaf Bandt" },
-  { student: "Hayley Scheir", actor: "Michael Vassiliadis" },
+  { student: "Gray Purcell", actor: "Akim Daouda" },
+  { student: "Hannah Testa", actor: "Desi Kusumadewi" },
+  { student: "Hayley Scheir", actor: "Katherina Reiche" },
 
   { student: "Kearstyn Cook", actor: "Rachmat Pambudy" },
-  { student: "Lauren Kim", actor: "Aleta Baun" },
-  { student: "Leah Towery", actor: "Desi Kusumadewi" },
+  { student: "Lauren Kim", actor: "Sunita Narain" },
+  { student: "Leah Towery", actor: "Angela Pinhati" },
 
-  { student: "Lucy Krause", actor: "Julie Collins" },
-  { student: "Luke Schubert", actor: "Joshua Gilbert" },
-  { student: "Mingze Zheng", actor: "Robert Spurway" },
+  { student: "Lucy Krause", actor: "Lamis Al Hashimy" },
+  { student: "Luke Schubert", actor: "Maurice Ntossui Allogo" },
+  { student: "Mingze Zheng", actor: "Sultan bin Ahmed Al Jaber" },
 
-  { student: "Miranda Wolfe", actor: "Sultan bin Ahmed Al Jaber" },
-  { student: "Naimah Haman", actor: "Lamis Al Hashimy" },
+  { student: "Miranda Wolfe", actor: "Ashish Gaikwad" },
+  { student: "Naimah Haman", actor: "Roberto Vilela" },
 
-  { student: "Natalie Wright", actor: "Maurice Ntossui Allogo" },
-  { student: "Osman Raju", actor: "Akim Daouda" },
+  { student: "Natalie Wright", actor: "Olaf Bandt" },
+  { student: "Osman Raju", actor: "João Paulo Capobianco" },
 
-  { student: "Raphaella Heath", actor: "Sakari Puisto" },
-  { student: "Summer White", actor: "Jussi Vanhanen" }
+  { student: "Raphaella Heath", actor: "Joshua Gilbert" },
+  { student: "Summer White", actor: "Julie Collins" }
 ];
 
 
