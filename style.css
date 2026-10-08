@@ -1331,50 +1331,117 @@ h1 {
 .timeline-phases {
   display: flex;
   flex-direction: column;
-
   gap: 2rem;
 }
 
 .timeline-phase {
   display: grid;
-
-  grid-template-columns: 180px minmax(0, 1fr);
-
-  gap: 1.5rem;
-
+  grid-template-columns: 150px minmax(0, 1fr);
+  gap: 1.25rem;
   align-items: center;
 }
 
 .timeline-graphic {
   display: flex;
-
   justify-content: center;
   align-items: center;
 }
 
 .timeline-graphic img {
   display: block;
-
-  width: 160px;
+  width: 130px;
   max-width: 100%;
-
   height: auto;
 }
 
-.timeline-events ul {
-  margin: 0;
-
-  padding-left: 1.25rem;
+.timeline-table-wrap {
+  min-width: 0;
+  overflow-x: auto;
 }
 
-.timeline-events li {
-  margin-bottom: 0.55rem;
+.timeline-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 0.9rem;
 }
 
-.timeline-events li:last-child {
-  margin-bottom: 0;
+.timeline-table th,
+.timeline-table td {
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  padding: 0.65rem 0.7rem;
+  vertical-align: top;
+  text-align: left;
+  line-height: 1.35;
 }
 
+.timeline-table th {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+}
+
+.timeline-table th:first-child,
+.timeline-table td:first-child {
+  width: 8%;
+  text-align: center;
+}
+
+.timeline-table th:nth-child(2),
+.timeline-table td:nth-child(2) {
+  width: 29%;
+}
+
+.timeline-table th:nth-child(3),
+.timeline-table td:nth-child(3) {
+  width: 29%;
+}
+
+.timeline-table th:nth-child(4),
+.timeline-table td:nth-child(4) {
+  width: 34%;
+}
+
+.timeline-table td {
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.timeline-table-no-header {
+  margin-top: 0;
+}
+
+.timeline-table-no-header td:first-child {
+  width: 8%;
+}
+
+.timeline-table-no-header td:nth-child(2) {
+  width: 29%;
+}
+
+.timeline-table-no-header td:nth-child(3) {
+  width: 29%;
+}
+
+.timeline-table-no-header td:nth-child(4) {
+  width: 34%;
+}
+
+.recess-cell {
+  text-align: center !important;
+  vertical-align: middle !important;
+  font-weight: 600;
+}
+
+.timeline-note {
+  opacity: 0.7;
+  font-size: 0.85em;
+}
+
+.timeline-table br + .timeline-note {
+  display: inline-block;
+  margin-top: 0.2rem;
+}
 
 /* =========================================================
    CONCEPT MODALS

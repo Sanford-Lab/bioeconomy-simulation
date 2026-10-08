@@ -333,16 +333,16 @@ const delegations = {
       constituencies: [],
       resources: [
         {
-          title: "Resource title 1",
-          url: "https://example.com/resource-1"
+          title: "RForest, environment and human-wilth coexistence: Maurice Ntossui Allogo on the ground to energize the sector",
+          url: "https://www.gabonreview.com/foret-environnement-et-cohabitation-homme-faune-maurice-ntossui-allogo-sur-le-terrain-pour-dynamise-le-secteur"
         },
         {
-          title: "Resource title 2",
-          url: "https://example.com/resource-2"
+          title: "Press release : Forest Economic Forum 2025: a strategic turning point for the future of the forest-wood sector",
+          url: "https://www.eeas.europa.eu/delegations/gabon/communiqu%C3%A9-de-presse-forum-%C3%A9conomique-forestier-2025-un-tournant-strat%C3%A9gique-pour-l%E2%80%99avenir-de-la_fr"
         },
         {
-          title: "Resource title 3",
-          url: "https://example.com/resource-3"
+          title: "Gabon: launch of the “Mavou Counter” for the marketing of non-timber forest products",
+          url: "https://gabonmediatime.com/gabon-lancement-du-comptoir-mavou-pour-la-commercialisation-des-produits-forestiers-non-ligneux"
         }
       ]
     },
@@ -2480,70 +2480,175 @@ function openTimeline() {
 
     <div class="timeline-phases">
 
+      <!-- PHASE 1 -->
       <div class="timeline-phase">
 
         <div class="timeline-graphic">
           <img src="assets/timeline/timeline-countries.png" alt="">
         </div>
 
-        <div class="timeline-events">
-          <ul>
-            <li><strong>Oct 14</strong> — Actor assignments announced</li>
-            <li><strong>Oct 26</strong> — Submit Actor Memo Part 1</li>
-            <li><strong>Oct 28</strong> — Submit Actor Memo Part 2</li>
-            <li><strong>Oct 29</strong> — Elect negotiation chair</li>
-          </ul>
+        <div class="timeline-table-wrap">
+          <table class="timeline-table">
+
+            <thead>
+              <tr>
+                <th>Week</th>
+                <th>Mon</th>
+                <th>Wed</th>
+                <th>Deadlines</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>7</td>
+                <td></td>
+                <td>Lecture: regulatory capture<br>Actor assignments announced</td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <td>8</td>
+                <td>Case study: Chinese pollution</td>
+                <td></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <td>9</td>
+                <td colspan="2" class="recess-cell">October recess</td>
+                <td>Actor Memo #1<br>(Oct 25)</td>
+              </tr>
+
+              <tr>
+                <td>10</td>
+                <td>Case study: resource curse</td>
+                <td>
+                  Lecture: 2-level games<br>
+                  <span class="timeline-note">
+                    Start thinking about coalitions, discussing interests, forming group chats...
+                  </span>
+                </td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <td>11</td>
+                <td>
+                  Case study: Kyoto Protocol<br>
+                  Initial meetings with countries / coalitions
+                </td>
+                <td>
+                  Lecture: flexibility in agreements<br>
+                  <span class="timeline-note">
+                    [Simulation TBD — split into committees? or do this on Monday?]
+                  </span>
+                </td>
+                <td>Actor Memos #2 &amp; #3</td>
+              </tr>
+
+            </tbody>
+          </table>
         </div>
 
       </div>
 
 
+      <!-- PHASE 2 -->
       <div class="timeline-phase">
 
         <div class="timeline-graphic">
           <img src="assets/timeline/timeline-rows.png" alt="">
         </div>
 
-        <div class="timeline-events">
-          <ul>
-            <li>Split into first-draft committees</li>
-            <li><strong>Nov 5</strong> — Submit first draft of treaty text</li>
-          </ul>
+        <div class="timeline-table-wrap">
+          <table class="timeline-table timeline-table-no-header">
+
+            <tbody>
+              <tr>
+                <td>12</td>
+                <td>Lecture: readings on negotiation topic (??)</td>
+                <td>Simulation mega-session</td>
+                <td>1st draft (when?)</td>
+              </tr>
+
+              <tr>
+                <td>13</td>
+                <td>
+                  Lecture: regime type<br>
+                  <span class="timeline-note">[Simulation TBD]</span>
+                </td>
+                <td>
+                  Lecture: collective action revisited<br>
+                  <span class="timeline-note">[Simulation TBD]</span>
+                </td>
+                <td></td>
+              </tr>
+            </tbody>
+
+          </table>
         </div>
 
       </div>
 
 
+      <!-- PHASE 3 -->
       <div class="timeline-phase">
 
         <div class="timeline-graphic">
           <img src="assets/timeline/timeline-cols.png" alt="">
         </div>
 
-        <div class="timeline-events">
-          <ul>
-            <li>Split into second-draft committees</li>
-            <li><strong>Nov 17</strong> — Submit rough draft of treaty text</li>
-          </ul>
+        <div class="timeline-table-wrap">
+          <table class="timeline-table timeline-table-no-header">
+
+            <tbody>
+              <tr>
+                <td>14</td>
+                <td colspan="2" class="recess-cell">Thanksgiving recess</td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <td>15</td>
+                <td>Simulation mega-session</td>
+                <td>Lecture: distributive politics</td>
+                <td>
+                  2nd draft (when?)<br>
+                  Amendments due Dec 4
+                </td>
+              </tr>
+            </tbody>
+
+          </table>
         </div>
 
       </div>
 
 
+      <!-- PHASE 4 -->
       <div class="timeline-phase">
 
         <div class="timeline-graphic">
           <img src="assets/timeline/timeline-countries.png" alt="">
         </div>
 
-        <div class="timeline-events">
-          <ul>
-            <li>Regroup into country delegations to draft amendments for proposal</li>
-            <li><strong>Nov 21</strong> — Submit draft for amendments to treaty text</li>
-            <li>Vote on whether to adopt amendments</li>
-            <li><strong>Dec 3</strong> — Final vote on the treaty</li>
-            <li><strong>Dec 9</strong> — Final paper due (reflections on simulation)</li>
-          </ul>
+        <div class="timeline-table-wrap">
+          <table class="timeline-table timeline-table-no-header">
+
+            <tbody>
+              <tr>
+                <td>16</td>
+                <td>
+                  Lecture: transnational actors<br>
+                  Vote on amendments
+                </td>
+                <td>Final vote</td>
+                <td>Final reflections (TBD)</td>
+              </tr>
+            </tbody>
+
+          </table>
         </div>
 
       </div>
@@ -2552,7 +2657,6 @@ function openTimeline() {
   `);
 
 }
-
 /* =========================================================
    RULES & NORMS
    ========================================================= */
