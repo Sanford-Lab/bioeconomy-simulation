@@ -2587,7 +2587,7 @@ function openTimeline() {
             <tbody>
 
               <tr class="timeline-phase-row">
-                <td colspan="4">Phase 1 — Country Preparation</td>
+                <td colspan="4">Phase 1 - Initial meetings</td>
               </tr>
 
               <tr>
@@ -2603,21 +2603,12 @@ function openTimeline() {
               <tr>
                 <td>8</td>
                 <td>Case study: Chinese pollution</td>
-                <td></td>
-                <td></td>
+                <td>October recess</td>
+                <td>Oct 25: Actor Memo #1</td>
               </tr>
 
               <tr>
                 <td>9</td>
-                <td colspan="2" class="recess-cell">October recess</td>
-                <td>
-                  Actor Memo #1<br>
-                  (Oct 25)
-                </td>
-              </tr>
-
-              <tr>
-                <td>10</td>
                 <td>Case study: resource curse</td>
                 <td>
                   Lecture: 2-level games<br>
@@ -2629,7 +2620,7 @@ function openTimeline() {
               </tr>
 
               <tr>
-                <td>11</td>
+                <td>10</td>
                 <td>
                   Case study: Kyoto Protocol<br>
                   Initial meetings with countries / coalitions
@@ -2640,7 +2631,7 @@ function openTimeline() {
                     [Simulation TBD — split into committees? or do this on Monday?]
                   </span>
                 </td>
-                <td>Actor Memos #2 (Nov 3)</td>
+                <td>Nov 3: Actor Memos #2</td>
               </tr>
 
             </tbody>
@@ -2671,18 +2662,18 @@ function openTimeline() {
             <tbody>
 
               <tr class="timeline-phase-row">
-                <td colspan="4">Phase 2 — Negotiation</td>
+                <td colspan="4">Phase 2 - 1st draft committees</td>
               </tr>
 
               <tr>
-                <td>12</td>
+                <td>11</td>
                 <td>Lecture: readings on negotiation topic (??)</td>
                 <td>Simulation mega-session</td>
                 <td>1st draft (when?)</td>
               </tr>
 
               <tr>
-                <td>13</td>
+                <td>12</td>
                 <td>
                   Lecture: regime type<br>
                   <span class="timeline-note">[Simulation TBD]</span>
@@ -2722,11 +2713,11 @@ function openTimeline() {
             <tbody>
 
               <tr class="timeline-phase-row">
-                <td colspan="4">Phase 3 — Drafting &amp; Revision</td>
+                <td colspan="4">Phase 3 - 2nd draft committees; Revision</td>
               </tr>
 
               <tr>
-                <td>14</td>
+                <td>13</td>
                 <td colspan="2" class="recess-cell">
                   Thanksgiving recess
                 </td>
@@ -2734,7 +2725,7 @@ function openTimeline() {
               </tr>
 
               <tr>
-                <td>15</td>
+                <td>14</td>
                 <td>Simulation mega-session</td>
                 <td>Lecture: distributive politics</td>
                 <td>
@@ -2771,17 +2762,17 @@ function openTimeline() {
             <tbody>
 
               <tr class="timeline-phase-row">
-                <td colspan="4">Phase 4 — Finalization</td>
+                <td colspan="4">Phase 4 - Amendments & final vote</td>
               </tr>
 
               <tr>
-                <td>16</td>
+                <td>15</td>
                 <td>
                   Lecture: transnational actors<br>
                   Vote on amendments
                 </td>
                 <td>Final vote</td>
-                <td>Final reflections (TBD)</td>
+                <td>Dec 15: Final reflections</td>
               </tr>
 
             </tbody>
