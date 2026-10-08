@@ -963,6 +963,18 @@ h1 {
     margin-bottom: 5px;
   }
 
+
+  .timeline-phases {
+    width: 750px;
+    transform: scale(0.4);
+    transform-origin: top left;
+    margin-bottom: -54%;
+  }
+
+  .timeline-table-wrap {
+    overflow: visible;
+  }
+
 }
 
 
