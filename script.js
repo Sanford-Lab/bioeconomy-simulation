@@ -2372,32 +2372,69 @@ document
       });
 
 
-    openModal(`
+    let sortColumn = null;
+    let sortAscending = true;
 
-      <h2>
-        Actor Assignments
-      </h2>
 
-      <div class="subtitle">
-        Simulation participants and assigned roles
-      </div>
+    function renderTable() {
 
-      <div class="actor-assignment-table-wrap">
+      const sortedAssignments = [...joinedAssignments];
+
+      if (sortColumn) {
+        sortedAssignments.sort((a, b) => {
+
+          const valueA = a[sortColumn].toLowerCase();
+          const valueB = b[sortColumn].toLowerCase();
+
+          return sortAscending
+            ? valueA.localeCompare(valueB)
+            : valueB.localeCompare(valueA);
+
+        });
+      }
+
+
+      return `
 
         <table class="actor-assignment-table">
 
           <thead>
             <tr>
-              <th>Student Full Name</th>
-              <th>Actor Full Name</th>
-              <th>Country</th>
-              <th>Role</th>
+
+              <th data-sort-column="student">
+                Student Full Name
+                ${sortColumn === "student"
+                  ? (sortAscending ? " ↑" : " ↓")
+                  : ""}
+              </th>
+
+              <th data-sort-column="actor">
+                Actor Full Name
+                ${sortColumn === "actor"
+                  ? (sortAscending ? " ↑" : " ↓")
+                  : ""}
+              </th>
+
+              <th data-sort-column="country">
+                Country
+                ${sortColumn === "country"
+                  ? (sortAscending ? " ↑" : " ↓")
+                  : ""}
+              </th>
+
+              <th data-sort-column="role">
+                Role
+                ${sortColumn === "role"
+                  ? (sortAscending ? " ↑" : " ↓")
+                  : ""}
+              </th>
+
             </tr>
           </thead>
 
           <tbody>
 
-            ${joinedAssignments.map(assignment => `
+            ${sortedAssignments.map(assignment => `
 
               <tr>
 
@@ -2406,7 +2443,6 @@ document
                 </td>
 
                 <td>
-
                   ${
                     assignment.actor
                       ? `
@@ -2419,7 +2455,6 @@ document
                       `
                       : ""
                   }
-
                 </td>
 
                 <td>
@@ -2438,12 +2473,59 @@ document
 
         </table>
 
+      `;
+    }
+
+
+    openModal(`
+
+      <h2>
+        Actor Assignments
+      </h2>
+
+      <div class="subtitle">
+        Simulation participants and assigned roles
+      </div>
+
+      <div class="timeline-note actor-assignment-sort-note">
+        Click any column header to sort alphabetically. Click again to reverse the order.
+      </div>
+
+      <div class="actor-assignment-table-wrap" id="actorAssignmentTableWrap">
+
+        ${renderTable()}
+
       </div>
 
     `);
 
-  });
 
+    const tableWrap =
+      document.getElementById("actorAssignmentTableWrap");
+
+
+    tableWrap.addEventListener("click", event => {
+
+      const header =
+        event.target.closest("th[data-sort-column]");
+
+      if (!header) return;
+
+      const newColumn =
+        header.dataset.sortColumn;
+
+      if (sortColumn === newColumn) {
+        sortAscending = !sortAscending;
+      } else {
+        sortColumn = newColumn;
+        sortAscending = true;
+      }
+
+      tableWrap.innerHTML = renderTable();
+
+    });
+
+  });
 
 /* =========================================================
    ACTOR ASSIGNMENT → COUNTRY DELEGATION

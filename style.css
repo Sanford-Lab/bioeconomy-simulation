@@ -1468,3 +1468,16 @@ h1 {
   text-underline-offset: 3px;
   cursor: pointer;
 }
+
+.actor-assignment-sort-note {
+  margin: 0.75rem 0 1rem 0;
+}
+
+.actor-assignment-table th[data-sort-column] {
+  cursor: pointer;
+  user-select: none;
+}
+
+.actor-assignment-table th[data-sort-column]:hover {
+  text-decoration: underline;
+}
