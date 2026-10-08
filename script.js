@@ -333,15 +333,15 @@ const delegations = {
       constituencies: [],
       resources: [
         {
-          title: "RForest, environment and human-wilth coexistence: Maurice Ntossui Allogo on the ground to energize the sector",
+          title: "Forest, environment and human-wilth coexistence: Maurice Ntossui Allogo on the ground to energize the sector (French-language website; use translation tool)",
           url: "https://www.gabonreview.com/foret-environnement-et-cohabitation-homme-faune-maurice-ntossui-allogo-sur-le-terrain-pour-dynamise-le-secteur"
         },
         {
-          title: "Press release : Forest Economic Forum 2025: a strategic turning point for the future of the forest-wood sector",
+          title: "Press release : Forest Economic Forum 2025: a strategic turning point for the future of the forest-wood sector (French-language website; use translation tool)",
           url: "https://www.eeas.europa.eu/delegations/gabon/communiqu%C3%A9-de-presse-forum-%C3%A9conomique-forestier-2025-un-tournant-strat%C3%A9gique-pour-l%E2%80%99avenir-de-la_fr"
         },
         {
-          title: "Gabon: launch of the “Mavou Counter” for the marketing of non-timber forest products",
+          title: "Gabon: launch of the “Mavou Counter” for the marketing of non-timber forest products (French-language website; use translation tool)",
           url: "https://gabonmediatime.com/gabon-lancement-du-comptoir-mavou-pour-la-commercialisation-des-produits-forestiers-non-ligneux"
         }
       ]
@@ -359,16 +359,16 @@ const delegations = {
         photo: "assets/actors/akim-daouda.jpg",
         resources: [
           {
-            title: "Resource title 1",
-            url: "https://example.com/resource-1"
+            title: "Profile in Ocean's News (French-language website; use translation tool)",
+            url: "https://oceans-news.com/slug-akim-daouda-mwaana-finance-climatique-gabon/"
           },
           {
-            title: "Resource title 2",
-            url: "https://example.com/resource-2"
+            title: "The elephant in the room: 5 ways to reconcile conservation and development in the Congo Basin",
+            url: "https://www.weforum.org/stories/nature-and-biodiversity/congo-basin-conservation-economic-development/"
           },
           {
-            title: "Resource title 3",
-            url: "https://example.com/resource-3"
+            title: "The FGIS, a catalyst for the Gabonese economy (French-language website; use translation tool)",
+            url: "https://www.gabonreview.com/le-fgis-un-catalyseur-de-leconomie-gabonaise/"
           }
         ]
       }
@@ -536,16 +536,16 @@ const delegations = {
       constituencies: [],
       resources: [
         {
-          title: "Resource title 1",
-          url: "https://example.com/resource-1"
+          title: "Speech on exports, investments, R&D",
+          url: "https://valtioneuvosto.fi/-/1410877/elinkeinoministeri-sakari-puiston-puhe-suurlahettilaskokouksessa-27.8.2025?languageId=en_US"
         },
         {
-          title: "Resource title 2",
-          url: "https://example.com/resource-2"
+          title: "Opportunity to accelerate biotechnology projects with IPCEI funding (Finnish-language website; use translation tool)",
+          url: "https://www.biotalous.fi/bioteknologiahankkeita-mahdollisuus-vauhdittaa-ipcei-rahoituksella/"
         },
         {
-          title: "Resource title 3",
-          url: "https://example.com/resource-3"
+          title: "Minister Puisto emphasises the importance of peat for security of supply and food production (Finnish-language website; use translation tool)",
+          url: "https://www.suomenuutiset.fi/puisto-korostaa-turpeen-merkitysta-huoltovarmuudelle-ja-ruoantuotannolle-kotimainen-tuotantokyky-on-olennainen-osa-suomen-huoltovarmuutta-kaikissa-olosuhteissa/"
         }
       ]
     },
@@ -561,16 +561,12 @@ const delegations = {
         photo: "assets/actors/jussi-vanhanen.jpg",
         resources: [
           {
-            title: "Resource title 1",
-            url: "https://example.com/resource-1"
+            title: "Interview with Metsä Group’s new President and CEO (Finnish-language website; use translation tool)",
+            url: "https://app.maaseuduntulevaisuus.fi/metsa/c53a2b4a-3015-4f36-bd40-a5a75196f3b9?"
           },
           {
-            title: "Resource title 2",
-            url: "https://example.com/resource-2"
-          },
-          {
-            title: "Resource title 3",
-            url: "https://example.com/resource-3"
+            title: "European Business & Nature Summit 2025 Panel: Business action for circular & bioeconomy (~30 min recording starts at ~31:36, Jussi starts talking at ~37:15)",
+            url: "https://green-forum.ec.europa.eu/green-business/business-and-biodiversity/european-business-and-nature-summit/european-business-and-nature-summit-2025/recordings-ebns2025/room-2-friday-24th-october_en"
           }
         ]
       }
@@ -1470,6 +1466,10 @@ const treatyHub = {
       title: "Fall 2024 final treaty",
       url: "assets/env-821-treaty-2024.pdf"
     },
+    {
+      title: "UNFCCC text",
+      url: "https://unfccc.int/files/essential_background/background_publications_htmlpdf/application/pdf/conveng.pdf"
+    },    
     {
       title: "Paris Accords text",
       url: "https://unfccc.int/files/essential_background/convention/application/pdf/english_paris_agreement.pdf"
@@ -2557,7 +2557,7 @@ function openTimeline() {
                     [Simulation TBD — split into committees? or do this on Monday?]
                   </span>
                 </td>
-                <td>Actor Memos #2 &amp; #3</td>
+                <td>Actor Memos #2 (Nov 3)</td>
               </tr>
             </tbody>
 
