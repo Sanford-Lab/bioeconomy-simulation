@@ -971,6 +971,19 @@ h1 {
     margin-bottom: -54%;
   }
 
+.timeline-phase-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.timeline-phase {
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr);
+  gap: 1.25rem;
+  align-items: center;
+}
+
   .timeline-table-wrap {
     overflow: visible;
   }
@@ -1403,8 +1416,19 @@ h1 {
 
 .timeline-graphic {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 0.35rem;
+}
+
+.timeline-caption {
+  font-size: 0.65rem;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.7;
 }
 
 .timeline-graphic img {

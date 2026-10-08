@@ -2547,6 +2547,7 @@ document.addEventListener("click", event => {
    TIMELINE
    ========================================================= */
 
+
 function openTimeline() {
 
   openModal(`
@@ -2558,11 +2559,12 @@ function openTimeline() {
 
     <div class="timeline-phases">
 
-      <!-- PHASE 1 -->
+      <!-- WEEKS 7–9 -->
       <div class="timeline-phase">
 
         <div class="timeline-graphic">
           <img src="assets/timeline/timeline-countries.png" alt="">
+          <div class="timeline-caption">Initial meetings</div>
         </div>
 
         <div class="timeline-table-wrap">
@@ -2586,10 +2588,6 @@ function openTimeline() {
 
             <tbody>
 
-              <tr class="timeline-phase-row">
-                <td colspan="4">Phase 1 - Initial meetings</td>
-              </tr>
-
               <tr>
                 <td>7</td>
                 <td></td>
@@ -2606,7 +2604,7 @@ function openTimeline() {
                 <td>8</td>
                 <td>Case study: Chinese pollution</td>
                 <td>FALL RECESS</td>
-                <td>Oct 25 (Sun): Actor Memo #1</td>
+                <td>Oct 25 (Sun): <br>Actor Memo #1</td>
               </tr>
 
               <tr>
@@ -2621,22 +2619,6 @@ function openTimeline() {
                 <td></td>
               </tr>
 
-              <tr>
-                <td>10</td>
-                <td>
-                  Case study: Kyoto Protocol<br>
-                  <span class="timeline-note">
-                    Initial meetings with countries/coalitions; think about treaty "wishlists"
-                  </span>
-                </td>
-                <td>
-                  Lecture: flexibility in agreements<br>
-                  <span class="timeline-note">
-                    1-hr in-class simulation time; split into 1st draft committees                  </span>
-                </td>
-                <td>Nov 3 (Tue): Actor Memo #2</td>
-              </tr>
-
             </tbody>
 
           </table>
@@ -2645,122 +2627,132 @@ function openTimeline() {
       </div>
 
 
-      <!-- PHASE 2 -->
-      <div class="timeline-phase">
+      <!-- WEEKS 10–13 -->
+      <div class="timeline-phase-group">
 
-        <div class="timeline-graphic">
-          <img src="assets/timeline/timeline-rows.png" alt="">
+        <!-- WEEKS 10–11 -->
+        <div class="timeline-phase">
+
+          <div class="timeline-graphic">
+            <img src="assets/timeline/timeline-rows.png" alt="">
+            <div class="timeline-caption">1st draft committees</div>
+          </div>
+
+          <div class="timeline-table-wrap">
+            <table class="timeline-table timeline-table-no-header">
+
+              <colgroup>
+                <col class="week-col">
+                <col class="mon-col">
+                <col class="wed-col">
+                <col class="deadline-col">
+              </colgroup>
+
+              <tbody>
+
+                <tr>
+                  <td>10</td>
+                  <td>
+                    Case study: Kyoto Protocol<br>
+                    <span class="timeline-note">
+                      Initial meetings with countries/coalitions; think about treaty "wishlists"
+                    </span>
+                  </td>
+                  <td>
+                    Lecture: flexibility in agreements<br>
+                    <span class="timeline-note">
+                      1-hr in-class simulation time; split into 1st draft committees
+                    </span>
+                  </td>
+                  <td>Nov 3 (Tue): <br>Actor Memo #2</td>
+                </tr>
+
+                <tr>
+                  <td>11</td>
+                  <td>
+                    Bioeconomy readings, simulation mega-session #1<br>
+                    <span class="timeline-note">
+                      Continue 1st draft work
+                    </span>
+                  </td>
+                  <td>
+                    Simulation mega-session #2<br>
+                    <span class="timeline-note">
+                      Split into 2nd draft committees; think about what you want to refine/change/add from 1st draft
+                    </span>
+                  </td>
+                  <td>Nov 10 (Tue): <br>1st draft</td>
+                </tr>
+
+              </tbody>
+
+            </table>
+          </div>
+
         </div>
 
-        <div class="timeline-table-wrap">
-          <table class="timeline-table timeline-table-no-header">
 
-            <colgroup>
-              <col class="week-col">
-              <col class="mon-col">
-              <col class="wed-col">
-              <col class="deadline-col">
-            </colgroup>
+        <!-- WEEKS 12–13 -->
+        <div class="timeline-phase">
 
-            <tbody>
+          <div class="timeline-graphic">
+            <img src="assets/timeline/timeline-cols.png" alt="">
+            <div class="timeline-caption">2nd draft committees; Revision</div>
+          </div>
 
-              <tr class="timeline-phase-row">
-                <td colspan="4">Phase 2 - 1st draft committees</td>
-              </tr>
+          <div class="timeline-table-wrap">
+            <table class="timeline-table timeline-table-no-header">
 
-              <tr>
-                <td>11</td>
-                <td>Bioeconomy readings, simulation mega-session #1<br>
-                  <span class="timeline-note">
-                    Continue 1st draft work
-                  </span>
-</td>
-                <td>Simulation mega-session #2<br>
-                  <span class="timeline-note">
-                    Split into 2nd draft committees; think about what you want to refine/change/add from 1st draft
-                  </span>
-</td>
-                <td>Nov 10 (Tue): 1st draft</td>
-              </tr>
+              <colgroup>
+                <col class="week-col">
+                <col class="mon-col">
+                <col class="wed-col">
+                <col class="deadline-col">
+              </colgroup>
 
-              <tr>
-                <td>12</td>
-                <td>
-                  Lecture: regime type<br>
-                  <span class="timeline-note">1-hr in-class simulation; continue 2nd draft work</span>
-                </td>
-                <td>
-                  Lecture: collective action revisited<br>
-                  <span class="timeline-note">1-hr in-class simulation; continue 2nd draft work</span>
-                </td>
-                <td>Nov 20 (Fri): 2nd draft</td>
-              </tr>
+              <tbody>
 
-            </tbody>
+                <tr>
+                  <td>12</td>
+                  <td>
+                    Lecture: regime type<br>
+                    <span class="timeline-note">
+                      1-hr in-class simulation; continue 2nd draft work
+                    </span>
+                  </td>
+                  <td>
+                    Lecture: collective action revisited<br>
+                    <span class="timeline-note">
+                      1-hr in-class simulation; continue 2nd draft work
+                    </span>
+                  </td>
+                  <td>Nov 20 (Fri): <br>2nd draft</td>
+                </tr>
 
-          </table>
+                <tr>
+                  <td>13</td>
+                  <td colspan="2" class="recess-cell">
+                    THANKSGIVING
+                  </td>
+                  <td></td>
+                </tr>
+
+              </tbody>
+
+            </table>
+          </div>
+
         </div>
 
       </div>
 
 
-      <!-- PHASE 3 -->
-      <div class="timeline-phase">
-
-        <div class="timeline-graphic">
-          <img src="assets/timeline/timeline-cols.png" alt="">
-        </div>
-
-        <div class="timeline-table-wrap">
-          <table class="timeline-table timeline-table-no-header">
-
-            <colgroup>
-              <col class="week-col">
-              <col class="mon-col">
-              <col class="wed-col">
-              <col class="deadline-col">
-            </colgroup>
-
-            <tbody>
-
-              <tr class="timeline-phase-row">
-                <td colspan="4">Phase 3 - 2nd draft committees; Revision</td>
-              </tr>
-
-              <tr>
-                <td>13</td>
-                <td colspan="2" class="recess-cell">
-                  THANKSGIVING
-                </td>
-                <td></td>
-              </tr>
-
-              <tr>
-                <td>14</td>
-                <td>Simulation mega-session #3<br>
-                  <span class="timeline-note">Start counting where votes will land; what's needed to get the treaty across the finish line?</span>
-                </td>
-                <td>Lecture: distributive politics<br>
-                  <span class="timeline-note">1-hr in-class simulation; finalize amendments</span>
-</td>
-                <td>
-                  Dec 4 (Fri): Country leads submit amendments<br>
-                </td>
-              </tr>
-
-            </tbody>
-
-          </table>
-        </div>
-
-      </div>
-
-
-      <!-- PHASE 4 -->
+      <!-- WEEKS 14–15 -->
       <div class="timeline-phase">
 
         <div class="timeline-graphic">
           <img src="assets/timeline/timeline-countries.png" alt="">
+          <div class="timeline-caption">Amendments &amp; final vote</div>
         </div>
 
         <div class="timeline-table-wrap">
@@ -2775,18 +2767,35 @@ function openTimeline() {
 
             <tbody>
 
-              <tr class="timeline-phase-row">
-                <td colspan="4">Phase 4 - Amendments & final vote</td>
+              <tr>
+                <td>14</td>
+                <td>
+                  Simulation mega-session #3<br>
+                  <span class="timeline-note">
+                    Start counting where votes will land; what's needed to get the treaty across the finish line?
+                  </span>
+                </td>
+                <td>
+                  Lecture: distributive politics<br>
+                  <span class="timeline-note">
+                    1-hr in-class simulation; finalize amendments
+                  </span>
+                </td>
+                <td>
+                  Dec 4 (Fri): <br>Country leads submit amendments
+                </td>
               </tr>
 
               <tr>
                 <td>15</td>
                 <td>
                   Lecture: transnational actors<br>
-<span class="timeline-note">Vote on amendments</span>
+                  <span class="timeline-note">
+                    Vote on amendments
+                  </span>
                 </td>
                 <td>Final vote</td>
-                <td>Dec 15 (Tue): Final reflections</td>
+                <td>Dec 15 (Tue): <br>Final reflections</td>
               </tr>
 
             </tbody>
@@ -2800,6 +2809,7 @@ function openTimeline() {
   `);
 
 }
+
 /* =========================================================
    RULES & NORMS
    ========================================================= */
