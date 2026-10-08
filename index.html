@@ -9,161 +9,162 @@
 
 <body>
 
+  <!-- DESKTOP HEADER -->
+
   <header class="topbar">
 
     <div class="goal">
       <div class="eyebrow">SIMULATION GOAL</div>
 
-<h1>
-  To negotiate an
-  <button class="concept-link" data-concept="international">international</button>
-  <span class="bioeconomy-group">
-    <button class="concept-link" data-concept="bioeconomy">bioeconomy</button>
-    <button class="concept-link resource-link" data-concept="bioeconomy-resources">
-      (Additional resources)
-    </button>
-  </span>
-  <button class="concept-link" data-concept="framework">framework</button>
-</h1>
+      <h1>
+        To negotiate an
+        <button class="concept-link" data-concept="international">international</button>
+        <span class="bioeconomy-group">
+          <button class="concept-link" data-concept="bioeconomy">bioeconomy</button>
+          <button class="concept-link resource-link" data-concept="bioeconomy-resources">
+            (Additional resources)
+          </button>
+        </span>
+        <button class="concept-link" data-concept="framework">framework</button>
+      </h1>
+
       <div class="country-selector-area">
 
-<div class="country-selector-hint">
-  COUNTRIES
-</div>
+        <div class="country-selector-hint">
+          COUNTRIES
+        </div>
 
-  <nav
-    id="countrySelector"
-    class="country-selector"
-    aria-label="Simulation countries">
-  </nav>
+        <nav
+          id="countrySelector"
+          class="country-selector"
+          aria-label="Simulation countries">
+        </nav>
 
-</div>
+      </div>
     </div>
 
-<div class="utility-panel">
+    <div class="utility-panel">
 
-  <button
-    id="treatyHubBtn"
-    class="utility-button">
-    Treaty Hub
-  </button>
+      <button
+        id="treatyHubBtn"
+        class="utility-button">
+        Treaty Hub
+      </button>
 
-  <button
-    id="actorAssignmentsBtn"
-    class="utility-button">
-    Actor Assignments
-  </button>
+      <button
+        id="actorAssignmentsBtn"
+        class="utility-button">
+        Actor Assignments
+      </button>
 
-  <button
-    id="timelineBtn"
-    class="utility-button">
-    Timeline
-  </button>
+      <button
+        id="timelineBtn"
+        class="utility-button">
+        Timeline
+      </button>
 
-  <button
-    id="rulesBtn"
-    class="utility-button">
-    Rules &amp; Norms
-  </button>
+      <button
+        id="rulesBtn"
+        class="utility-button">
+        Rules &amp; Norms
+      </button>
 
-  <div class="chair-display">
+      <div class="chair-display">
 
-    <div class="chair-label">
-      CHAIR
+        <div class="chair-label">
+          CHAIR
+        </div>
+
+        <div
+          id="chairDisplay"
+          class="chair-name">
+          Not yet elected
+        </div>
+
+      </div>
+
     </div>
-
-    <div
-      id="chairDisplay"
-      class="chair-name">
-
-      Not yet elected
-
-    </div>
-
-  </div>
-
-</div>
 
   </header>
 
 
-<!-- LEFT SIMULATION TOOLBAR -->
+  <!-- DESKTOP LEFT SIMULATION TOOLBAR -->
 
-<div class="simulation-toolbar">
+  <div class="simulation-toolbar">
 
-  <div class="toolbar-section">
+    <div class="toolbar-section">
 
-  <div class="toolbar-heading">
-    SECTORS
+      <div class="toolbar-heading">
+        SECTORS
+      </div>
+
+      <button
+        class="coalition-button"
+        data-filter-type="sector"
+        data-filter-value="Agriculture & food">
+        Agriculture &amp; food
+      </button>
+
+      <button
+        class="coalition-button"
+        data-filter-type="sector"
+        data-filter-value="Forestry & forest products">
+        Forestry &amp; forest products
+      </button>
+
+      <button
+        class="coalition-button"
+        data-filter-type="sector"
+        data-filter-value="Bio-based materials & chemicals">
+        Bio-based materials &amp; chemicals
+      </button>
+
+      <button
+        class="coalition-button"
+        data-filter-type="sector"
+        data-filter-value="Bioenergy & fuels">
+        Bioenergy &amp; fuels
+      </button>
+
+      <button
+        class="coalition-button"
+        data-filter-type="sector"
+        data-filter-value="Cross-cutting">
+        Cross-cutting
+      </button>
+
+    </div>
+
+    <div class="toolbar-section">
+
+      <div class="toolbar-heading">
+        CONSTITUENCIES
+      </div>
+
+      <button
+        class="coalition-button"
+        data-filter-type="constituency"
+        data-filter-value="Industry">
+        Industry
+      </button>
+
+      <button
+        class="coalition-button"
+        data-filter-type="constituency"
+        data-filter-value="Indigenous peoples">
+        Indigenous peoples
+      </button>
+
+      <button
+        class="coalition-button"
+        data-filter-type="constituency"
+        data-filter-value="Farmers & workers">
+        Farmers &amp; workers
+      </button>
+
+    </div>
+
   </div>
-
-  <button
-    class="coalition-button"
-    data-filter-type="sector"
-    data-filter-value="Agriculture & food">
-    Agriculture & food
-  </button>
-
-  <button
-    class="coalition-button"
-    data-filter-type="sector"
-    data-filter-value="Forestry & forest products">
-    Forestry & forest products
-  </button>
-
-  <button
-    class="coalition-button"
-    data-filter-type="sector"
-    data-filter-value="Bio-based materials & chemicals">
-    Bio-based materials & chemicals
-  </button>
-
-  <button
-    class="coalition-button"
-    data-filter-type="sector"
-    data-filter-value="Bioenergy & fuels">
-    Bioenergy & fuels
-  </button>
-
-  <button
-    class="coalition-button"
-    data-filter-type="sector"
-    data-filter-value="Cross-cutting">
-    Cross-cutting
-  </button>
-
-</div>
-
-<div class="toolbar-section">
-
-  <div class="toolbar-heading">
-    CONSTITUENCIES
-  </div>
-
-  <button
-    class="coalition-button"
-    data-filter-type="constituency"
-    data-filter-value="Industry">
-    Industry
-  </button>
-
-  <button
-    class="coalition-button"
-    data-filter-type="constituency"
-    data-filter-value="Indigenous peoples">
-    Indigenous peoples
-  </button>
-
-  <button
-    class="coalition-button"
-    data-filter-type="constituency"
-    data-filter-value="Farmers & workers">
-    Farmers & workers
-  </button>
-
-</div>
-
-</div>
 
 
   <!-- WORLD MAP -->
@@ -171,6 +172,91 @@
   <main class="map-wrap">
 
     <div id="worldMap" class="world-map"></div>
+
+  </main>
+
+
+  <!-- MOBILE HOME -->
+
+  <main class="mobile-home">
+
+    <div class="mobile-goal">
+
+      <div class="eyebrow">
+        SIMULATION GOAL
+      </div>
+
+      <h1>
+        To negotiate an
+        <button
+          class="concept-link"
+          data-concept="international">
+          international
+        </button>
+        <span class="bioeconomy-group">
+          <button
+            class="concept-link"
+            data-concept="bioeconomy">
+            bioeconomy
+          </button>
+          <button
+            class="concept-link resource-link"
+            data-concept="bioeconomy-resources">
+            (Additional resources)
+          </button>
+        </span>
+        <button
+          class="concept-link"
+          data-concept="framework">
+          framework
+        </button>
+      </h1>
+
+    </div>
+
+
+    <div class="mobile-buttons">
+
+      <button
+        class="mobile-utility-button"
+        data-mobile-action="treatyHub">
+        Treaty Hub
+      </button>
+
+      <button
+        class="mobile-utility-button"
+        data-mobile-action="actorAssignments">
+        Actor Assignments
+      </button>
+
+      <button
+        class="mobile-utility-button"
+        data-mobile-action="timeline">
+        Timeline
+      </button>
+
+      <button
+        class="mobile-utility-button"
+        data-mobile-action="rules">
+        Rules &amp; Norms
+      </button>
+
+    </div>
+
+
+    <div class="mobile-chair">
+
+      <div class="chair-label">
+        CHAIR
+      </div>
+
+      <div
+        id="mobileChairDisplay"
+        class="chair-name">
+        Not yet elected
+      </div>
+
+    </div>
 
   </main>
 

@@ -3456,6 +3456,33 @@ document.addEventListener(
   }
 );
 
+/* =========================================================
+   MOBILE UTILITY BUTTON EVENTS
+   ========================================================= */
+
+const mobileButtonMap = {
+  treatyHub: "treatyHubBtn",
+  actorAssignments: "actorAssignmentsBtn",
+  timeline: "timelineBtn",
+  rules: "rulesBtn"
+};
+
+document.addEventListener("click", event => {
+
+  const button =
+    event.target.closest(".mobile-utility-button");
+
+  if (!button) return;
+
+  const desktopButtonId =
+    mobileButtonMap[button.dataset.mobileAction];
+
+  if (desktopButtonId) {
+    document.getElementById(desktopButtonId)?.click();
+  }
+
+});
+
 
 /* =========================================================
    INITIALIZE
