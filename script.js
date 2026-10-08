@@ -2595,7 +2595,9 @@ function openTimeline() {
                 <td></td>
                 <td>
                   Lecture: regulatory capture<br>
-                  Actor assignments announced
+                  <span class="timeline-note">
+                    Actor assignments announced
+                  </span>
                 </td>
                 <td></td>
               </tr>
@@ -2603,8 +2605,8 @@ function openTimeline() {
               <tr>
                 <td>8</td>
                 <td>Case study: Chinese pollution</td>
-                <td>October recess</td>
-                <td>Oct 25: Actor Memo #1</td>
+                <td>FALL RECESS</td>
+                <td>Oct 25 (Sun): Actor Memo #1</td>
               </tr>
 
               <tr>
@@ -2623,7 +2625,9 @@ function openTimeline() {
                 <td>10</td>
                 <td>
                   Case study: Kyoto Protocol<br>
-                  Initial meetings with countries / coalitions
+                  <span class="timeline-note">
+                    Initial meetings with countries, coalitions
+                  </span>
                 </td>
                 <td>
                   Lecture: flexibility in agreements<br>
@@ -2631,7 +2635,7 @@ function openTimeline() {
                     [Simulation TBD — split into committees? or do this on Monday?]
                   </span>
                 </td>
-                <td>Nov 3: Actor Memos #2</td>
+                <td>Nov 3 (Tue): Actor Memo #2</td>
               </tr>
 
             </tbody>
@@ -2676,11 +2680,11 @@ function openTimeline() {
                 <td>12</td>
                 <td>
                   Lecture: regime type<br>
-                  <span class="timeline-note">[Simulation TBD]</span>
+                  <span class="timeline-note">1-hr in-class simulation</span>
                 </td>
                 <td>
                   Lecture: collective action revisited<br>
-                  <span class="timeline-note">[Simulation TBD]</span>
+                  <span class="timeline-note">1-hr in-class simulation</span>
                 </td>
                 <td></td>
               </tr>
@@ -2728,8 +2732,9 @@ function openTimeline() {
                 <td>14</td>
                 <td>Simulation mega-session</td>
                 <td>Lecture: distributive politics</td>
+                  <span class="timeline-note">1-hr in-class simulation</span>
                 <td>
-                  2nd draft (when?)<br>
+                  Nov 20 (Fri): 2nd draft<br>
                   Amendments due Dec 4
                 </td>
               </tr>
