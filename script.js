@@ -107,18 +107,45 @@ const delegations = {
       sectors: [],
       constituencies: [],
       resources: [
-        {
-          title: "Resource title 1",
-          url: "https://example.com/resource-1"
-        },
-        {
-          title: "Resource title 2",
-          url: "https://example.com/resource-2"
-        },
-        {
-          title: "Resource title 3",
-          url: "https://example.com/resource-3"
-        }
+{
+
+  title: "Interview with João Paulo Capobianco – Institute of Democracy and Sustainability",
+
+ url: "https://www.youtube.com/watch?v=p0Po_e8rDto"
+
+},
+
+{
+
+  title: "João Paulo Capobianco on Climate Action",
+
+  url: "https://www.youtube.com/watch?v=a3AgztXMF0o"
+
+},
+
+{
+
+  title: "Brazilian government announces R$150 million from the Amazon Fund for socio-bioeconomy innovation",
+
+  url: "https://www.amazoniamaisdez.org.br/en/post/brazilian-government-announces-r-150-million-from-the-amazon-fund-for-the-amazon-challenges-progr"
+
+},
+
+{
+
+  title: "IKI project highlighted in the Brazilian Senate on Caatinga Day",
+
+  url: "https://www.ikibrasil.com/en/networks4conservation-iki-project-highlighted-in-the-senate-on-caatinga-day/"
+
+},
+
+{
+
+  title: "Solutions Dialogue on Forest Finance: Delivering the roadmap on the path to 2030",
+
+  url: "https://forestclimateleaders.org/news-and-resources/solutions-dialogue-on-forest-finance-delivering-the-roadmap-on-the-path-to-2030/"
+
+},
       ]
     },
 
@@ -132,18 +159,29 @@ const delegations = {
     constituencies: ["Indigenous peoples"],
     photo: "assets/actors/almir-narayamoga-surui.png",
     resources: [
-      {
-        title: "Resource title 1",
-        url: "https://example.com/resource-1"
-      },
-      {
-        title: "Resource title 2",
-        url: "https://example.com/resource-2"
-      },
-      {
-        title: "Resource title 3",
-        url: "https://example.com/resource-3"
-      }
+{
+
+  title: "Meet candidate Almir Suruí (Rondônia), 2022 elections",
+
+  url: "https://www.youtube.com/watch?v=eGFmS_fT_SA"
+
+},
+
+{
+
+  title: "Amazon tribe protects rainforest through coffee and tech",
+
+  url: "https://beanonabike.olisipo.coffee/amazon-tribe-protects-rainforest-through-coffee-and-tech/"
+
+},
+
+{
+
+  title: "Chief Almir Narayamoga Suruí in New York",
+
+  url: "https://domini.com/insights/chief_almir_narayamoga_surui_nyc/"
+
+},
     ]
   },
       {
@@ -155,18 +193,29 @@ const delegations = {
         constituencies: ["Industry"],
         photo: "assets/actors/angela-pinhati.jpg",
         resources: [
-          {
-            title: "Resource title 1",
-            url: "https://example.com/resource-1"
-          },
-          {
-            title: "Resource title 2",
-            url: "https://example.com/resource-2"
-          },
-          {
-            title: "Resource title 3",
-            url: "https://example.com/resource-3"
-          }
+{
+
+  title: "Scaling sustainability: What leaders can learn from Natura",
+
+  url: "https://www.forbes.com/sites/maryjohnstone-louis/2026/08/13/scaling-sustainability-what-leaders-can-learn-from-natura/"
+
+},
+
+{
+
+  title: "In conversation with Angela Pinhati, Chief Sustainability Officer, Natura",
+
+  url: "https://www.youtube.com/watch?v=a5hnWUgX3yM"
+
+},
+
+{
+
+  title: "WIPO GREEN welcomes Angela Pinhati as Ambassador for Brazil",
+
+  url: "https://www3.wipo.int/wipogreen/en/insights/angela-pinhati.html"
+
+},
         ]
       },
       {
@@ -178,18 +227,29 @@ const delegations = {
         constituencies: ["Farmers & workers"],
         photo: "assets/actors/roberto-vilela.jpg",
         resources: [
-          {
-            title: "Resource title 1",
-            url: "https://example.com/resource-1"
-          },
-          {
-            title: "Resource title 2",
-            url: "https://example.com/resource-2"
-          },
-          {
-            title: "Resource title 3",
-            url: "https://example.com/resource-3"
-          }
+{
+
+  title: "How Tabôa made agroforestry cacao financeable in southern Bahia, Brazil",
+
+  url: "https://medium.com/transformation-capital/how-tabôa-made-agroforestry-cacao-financeable-in-southern-bahia-brazil-9b563b2c6630"
+
+},
+
+{
+
+  title: "Tabôa's Family Farming and Bioeconomy programme",
+
+  url: "https://taboa.org.br/programa/agricultura-familiar-e-bioeconomia/"
+
+},
+
+{
+
+  title: "Tabôa at 10 years: Socio-environmental justice led by communities",
+
+  url: "https://redecomua.org.br/taboa-10-anos-justica-socioambiental-com-protagonismo-comunitario/"
+
+}
         ]
       }
     ]
