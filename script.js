@@ -1556,65 +1556,7 @@ const treatyHub = {
       url: "https://www.cbd.int/article/cop15-final-text-kunming-montreal-gbf-221222"
     }
   ],
-
-
-  "1st draft links": [
-    {
-      title: "1st Draft: Committee Assignments",
-      url: "https://docs.google.com/spreadsheets/d/17oqVmS8g1ZzegrSMdpnn76Abv7EwUKVeUD_dYmoJUKI/edit?gid=0#gid=0"
-    },
-    {
-      title: "1st Draft: Key Definitions & Objectives",
-      url: "https://docs.google.com/document/d/1PB6VnNc63DmVQDhHGtHL4jn5X8M6YdsPhBDcycn_0UE/edit?tab=t.0"
-    },
-    {
-      title: "1st Draft: Obligations & Commitments",
-      url: "https://docs.google.com/document/d/1PB6VnNc63DmVQDhHGtHL4jn5X8M6YdsPhBDcycn_0UE/edit?tab=t.noey3od4uny9"
-    },
-    {
-      title: "1st Draft: Monitoring & Institutions",
-      url: "https://docs.google.com/document/d/1PB6VnNc63DmVQDhHGtHL4jn5X8M6YdsPhBDcycn_0UE/edit?tab=t.7jy1prmupbue"
-    },
-    {
-      title: "1st Draft: Disputes, Settlements & Amendments",
-      url: "https://docs.google.com/document/d/1PB6VnNc63DmVQDhHGtHL4jn5X8M6YdsPhBDcycn_0UE/edit?tab=t.v2igqkypvef"
-    },
-    {
-      title: "Cheat Sheet: So You Want to Write an International Environmental Treaty",
-      cheatSheet: true
-    }
-  ],
-
-
-  "2nd draft links": [
-    {
-      title: "2nd Draft: Committee Assignments",
-      url: "https://docs.google.com/spreadsheets/d/17oqVmS8g1ZzegrSMdpnn76Abv7EwUKVeUD_dYmoJUKI/edit?gid=0#gid=0"
-    },
-    {
-      title: "2nd Draft: Key Definitions & Objectives",
-      url: "https://docs.google.com/document/d/1LxbDG0fHtdPq-w-zEZeS6g8zVOP1eYxBwb0fh9nz6B4/edit?tab=t.0"
-    },
-    {
-      title: "2nd Draft: Obligations & Commitments",
-      url: "https://docs.google.com/document/d/1LxbDG0fHtdPq-w-zEZeS6g8zVOP1eYxBwb0fh9nz6B4/edit?tab=t.noey3od4uny9"
-    },
-    {
-      title: "2nd Draft: Monitoring & Institutions",
-      url: "https://docs.google.com/document/d/1LxbDG0fHtdPq-w-zEZeS6g8zVOP1eYxBwb0fh9nz6B4/edit?tab=t.7jy1prmupbue"
-    },
-    {
-      title: "2nd Draft: Disputes, Settlements & Amendments",
-      url: "https://docs.google.com/document/d/1LxbDG0fHtdPq-w-zEZeS6g8zVOP1eYxBwb0fh9nz6B4/edit?tab=t.v2igqkypvef"
-    },
-    {
-      title: "Cheat Sheet: So You Want to Write an International Environmental Treaty",
-      cheatSheet: true
-    }
-  ],
-
-
-  "National bioeconomy strategies": [
+"National bioeconomy strategies": [
     {
       title: "STRATEGY PUBLISHED",
       type: "section"
@@ -1684,6 +1626,61 @@ const treatyHub = {
       country: "UAE",
       title: "National Policy on Biofuels",
       url: "https://uaelegislation.gov.ae/en/policy/details/the-national-policy-on-biofuels"
+    }
+  ],
+
+  "1st draft links": [
+    {
+      title: "1st Draft: Committee Assignments",
+      url: "https://docs.google.com/spreadsheets/d/17oqVmS8g1ZzegrSMdpnn76Abv7EwUKVeUD_dYmoJUKI/edit?gid=0#gid=0"
+    },
+    {
+      title: "1st Draft: Key Definitions & Objectives",
+      url: "https://docs.google.com/document/d/1PB6VnNc63DmVQDhHGtHL4jn5X8M6YdsPhBDcycn_0UE/edit?tab=t.0"
+    },
+    {
+      title: "1st Draft: Obligations & Commitments",
+      url: "https://docs.google.com/document/d/1PB6VnNc63DmVQDhHGtHL4jn5X8M6YdsPhBDcycn_0UE/edit?tab=t.noey3od4uny9"
+    },
+    {
+      title: "1st Draft: Monitoring & Institutions",
+      url: "https://docs.google.com/document/d/1PB6VnNc63DmVQDhHGtHL4jn5X8M6YdsPhBDcycn_0UE/edit?tab=t.7jy1prmupbue"
+    },
+    {
+      title: "1st Draft: Disputes, Settlements & Amendments",
+      url: "https://docs.google.com/document/d/1PB6VnNc63DmVQDhHGtHL4jn5X8M6YdsPhBDcycn_0UE/edit?tab=t.v2igqkypvef"
+    },
+    {
+      title: "Cheat Sheet: So You Want to Write an International Environmental Treaty",
+      cheatSheet: true
+    }
+  ],
+
+
+  "2nd draft links": [
+    {
+      title: "2nd Draft: Committee Assignments",
+      url: "https://docs.google.com/spreadsheets/d/17oqVmS8g1ZzegrSMdpnn76Abv7EwUKVeUD_dYmoJUKI/edit?gid=0#gid=0"
+    },
+    {
+      title: "2nd Draft: Key Definitions & Objectives",
+      url: "https://docs.google.com/document/d/1LxbDG0fHtdPq-w-zEZeS6g8zVOP1eYxBwb0fh9nz6B4/edit?tab=t.0"
+    },
+    {
+      title: "2nd Draft: Obligations & Commitments",
+      url: "https://docs.google.com/document/d/1LxbDG0fHtdPq-w-zEZeS6g8zVOP1eYxBwb0fh9nz6B4/edit?tab=t.noey3od4uny9"
+    },
+    {
+      title: "2nd Draft: Monitoring & Institutions",
+      url: "https://docs.google.com/document/d/1LxbDG0fHtdPq-w-zEZeS6g8zVOP1eYxBwb0fh9nz6B4/edit?tab=t.7jy1prmupbue"
+    },
+    {
+      title: "2nd Draft: Disputes, Settlements & Amendments",
+      url: "https://docs.google.com/document/d/1LxbDG0fHtdPq-w-zEZeS6g8zVOP1eYxBwb0fh9nz6B4/edit?tab=t.v2igqkypvef"
+    },
+    {
+      title: "Cheat Sheet: So You Want to Write an International Environmental Treaty",
+      cheatSheet: true
     }
   ],
 
@@ -2780,7 +2777,7 @@ function openTimeline() {
 
           <div class="timeline-graphic">
             <img src="assets/timeline/timeline-cols.png" alt="">
-            <div class="timeline-caption">2nd draft committees; Revision</div>
+            <div class="timeline-caption">2nd draft committees</div>
           </div>
 
           <div class="timeline-table-wrap">
