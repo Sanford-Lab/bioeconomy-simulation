@@ -2933,6 +2933,9 @@ function openRules() {
           are sharing their own opinions, and do your best not to take these
           negotiations personally.
         </li>
+        <li>
+          If you foresee yourself being unable to attend a simulation class session, please nominate someone else who will be attending to speak on your behalf.
+        </li>
 
         <li>
           If you feel like your actor might be deceitful, there is no
@@ -3046,6 +3049,9 @@ function openRules() {
             <li>
               L1 Game: Lead negotiators will vote to approve or reject the final
               draft of the treaty. Voting parties may also abstain from voting.
+            </li>
+            <li>
+              The treaty is approved if: >2/3 of countries present vote yea, OR >1/2 of countries with >1/2 of GDP present vote yea
             </li>
 
             <li>
