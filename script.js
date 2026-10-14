@@ -9,16 +9,16 @@ const delegations = {
       constituencies: [],
       resources: [
         {
-          title: "Resource title 1",
-          url: "https://example.com/resource-1"
+          title: "India aims to lead next industrial revolution with biomanufacturing policy (Interview with India Times)",
+          url: "https://government.economictimes.indiatimes.com/news/policy/india-aims-to-lead-next-industrial-revolution-with-biomanufacturing-policy-dbt-secy-rajesh-gokhale/112791980"
         },
         {
-          title: "Resource title 2",
-          url: "https://example.com/resource-2"
+          title: "Policy push for India’s bioeconomy (Nature article)",
+          url: "https://www.nature.com/articles/d44151-024-00136-1"
         },
         {
-          title: "Resource title 3",
-          url: "https://example.com/resource-3"
+          title: "BioE3 policy 2024 handbook",
+          url: "https://bmi.dbt.gov.in/pdf/folder.pdf"
         }
       ]
     },
@@ -34,17 +34,22 @@ const delegations = {
         photo: "assets/actors/ashish-gaikwad.jpg",
         resources: [
           {
-            title: "Resource title 1",
-            url: "https://example.com/resource-1"
+            title: "Interview with Financial Express on ETJ tech",
+            url: "https://www.financialexpress.com/business/defence-exclusive-interview-honeywells-etj-tech-to-help-cut-emission-says-vice-president-ashish-gaikwad-2908529/"
           },
           {
-            title: "Resource title 2",
-            url: "https://example.com/resource-2"
+            title: "Interview with Economic Times on his business strategy and bio-based materials at his previous role",
+            url: "https://economictimes.indiatimes.com/small-biz/sme-sector/digitalisation-and-sustainability-two-mega-trends-we-are-betting-big-on-ashish-gaikwad-md-honeywell-automation-india-limited/articleshow/100517994.cms"
           },
           {
-            title: "Resource title 3",
-            url: "https://example.com/resource-3"
+            title: "Personal LinkedIn profile where he regularly posts about Praj Industries' work in bioeconomy",
+            url: "https://www.linkedin.com/in/ashish-gaikwad-59b4164/recent-activity/all/"
+          },
+          {
+            title: "Praj Industries 2025-26 Annual Report, with message from Ashish",
+            url: "https://www.praj.net/wp-content/uploads/2026/07/Praj-Industries-Ltd-Annual-Report-2025-26.pdf"
           }
+
         ]
       },
       {
@@ -517,41 +522,41 @@ const delegations = {
       constituencies: [],
       resources: [
         {
-          title: "Resource title 1",
-          url: "https://example.com/resource-1"
+          title: "Interview with Ashleigh Gillon, Sky News",
+          url: "https://minister.agriculture.gov.au/collins/speeches-and-transcripts/interview-ashleigh-gillon-sky-news-liquid-fuels-announcement"
         },
         {
-          title: "Resource title 2",
-          url: "https://example.com/resource-2"
+          title: "Interview with Jess McGuire, ABC NSW Radio",
+          url: "https://minister.agriculture.gov.au/collins/speeches-and-transcripts/interview-with-jess-mcguire-low-carbon-liquid-fuels"
         },
         {
-          title: "Resource title 3",
-          url: "https://example.com/resource-3"
+          title: "Australia's Timber Fiber Strategy",
+          url: "https://www.agriculture.gov.au/sites/default/files/documents/timber-fibre-strategy.pdf"
         }
       ]
     },
 
     actors: [
       {
-        name: "Joshua Gilbert",
-        role: "Indigenous agricultural and sustainability advocate",
+        name: "Colin Saltmere",
+        role: "Chairman of National Indigenous Science Translation Centre, Managing Director of Myuma Group",
         constituency: "Indigenous peoples",
-        sector: "Agriculture & food",
-        sectors: ["Agriculture & food", "Forestry & forest products"],
+        sector: "Bio-based materials & chemicals",
+        sectors: ["Bio-based materials & chemicals"],
         constituencies: ["Indigenous peoples"],
-        photo: "assets/actors/joshua-gilbert.png",
+        photo: "assets/actors/colin-saltmere.png",
         resources: [
           {
-            title: "Resource title 1",
-            url: "https://example.com/resource-1"
+            title: "Indigenous community signs landmark agreement with University of Queensland to develop spinifex 'nanofibre' industry",
+            url: "https://www.abc.net.au/news/rural/2015-04-29/spinifex-discoveries-drive-industry/6429716"
           },
           {
-            title: "Resource title 2",
-            url: "https://example.com/resource-2"
+            title: "Funding secured to establish National Indigenous Science Translation Centre",
+            url: "https://theibr.com.au/06-12-2024/15270/funding-secured-to-establish-national-indigenous-science-translation-centre"
           },
           {
-            title: "Resource title 3",
-            url: "https://example.com/resource-3"
+            title: "Landline: Spinifex research (see 'Transcript')",
+            url: "https://www.abc.net.au/education/landline-spinifex-research/13936670"
           }
         ]
       },
@@ -565,16 +570,16 @@ const delegations = {
         photo: "assets/actors/robert-spurway.jpg",
         resources: [
           {
-            title: "Resource title 1",
-            url: "https://example.com/resource-1"
+            title: "GrainCorp Sustainability Report 2025",
+            url: "https://www.graincorp.com.au/wp-content/uploads/2025/11/Sustainability-Report.pdf"
           },
           {
-            title: "Resource title 2",
-            url: "https://example.com/resource-2"
+            title: "Turning fields of gold into a sustainable fuel source",
+            url: "https://www.graincorp.com.au/turning-fields-of-gold-into-a-sustainable-fuel-source/"
           },
           {
-            title: "Resource title 3",
-            url: "https://example.com/resource-3"
+            title: "Golden fields, green fuel: The next chapter in Australian productivity",
+            url: "https://www.graincorp.com.au/golden-fields-green-fuel-the-next-chapter-in-australian-productivity/"
           }
         ]
       }
@@ -2263,7 +2268,7 @@ const studentAssignments = [
   { student: "Natalie Wright", actor: "Olaf Bandt" },
   { student: "Osman Raju", actor: "João Paulo Capobianco" },
 
-  { student: "Raphaella Heath", actor: "Joshua Gilbert" },
+  { student: "Raphaella Heath", actor: "Colin Saltmere" },
   { student: "Summer White", actor: "Julie Collins" }
 ];
 
@@ -2364,7 +2369,7 @@ const actorAssignments = [
     role: "Lead Negotiator"
   },
   {
-    actor: "Joshua Gilbert",
+    actor: "Colin Saltmere",
     country: "Australia",
     role: "Subnational Actor"
   },
