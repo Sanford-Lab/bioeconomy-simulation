@@ -544,7 +544,7 @@ const delegations = {
         sector: "Bio-based materials & chemicals",
         sectors: ["Bio-based materials & chemicals"],
         constituencies: ["Indigenous peoples"],
-        photo: "assets/actors/colin-saltmere.png",
+        photo: "assets/actors/colin-saltmere.jpg",
         resources: [
           {
             title: "Indigenous community signs landmark agreement with University of Queensland to develop spinifex 'nanofibre' industry",
